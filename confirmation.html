@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirmation Page</title>
+    <!-- Add Plyr library -->
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.4/plyr.css" />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f5f5f5;
+        margin: 5px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      .container {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+      }
+
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 20px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      video {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      /* Responsive Styles */
+      @media screen and (max-width: 600px) {
+        .container {
+          padding: 20px;
+        }
+
+        button {
+          width: 100%;
+        }
+      }
+      .divspace {
+        margin: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Review and Confirm</h1>
+
+      <p>Please review the information before confirming:</p>
+
+      <p>Name: <strong id="confName"></strong></p>
+      <img src="" id="confLogo" alt="Logo" />
+      <p>Language: <strong id="confLanguage"></strong></p>
+      <p>Category: <strong id="confCategory"></strong></p>
+      <p>EPG: <strong id="confEpg"></strong></p>
+      <p>HD: <strong id="confHd"></strong></p>
+      <p>URL: <strong id="confUrl"></strong></p>
+
+      <!-- Add video element for Plyr -->
+      <video controls>Your browser does not support the video tag.</video>
+      <div class="divspace"></div>
+      <button onclick="uploadToAirtable()">Confirm and Upload</button>
+    </div>
+
+    <!-- Add Plyr script -->
+    <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
+
+    <script>
+      var name = sessionStorage.getItem("name");
+      var logo = sessionStorage.getItem("logo");
+      var language = sessionStorage.getItem("language");
+      var category = sessionStorage.getItem("category");
+      var epg = sessionStorage.getItem("epg");
+      var hd = sessionStorage.getItem("hd");
+      var url = sessionStorage.getItem("url");
+
+      document.getElementById("confName").textContent = name;
+      var logoElement = document.getElementById("confLogo");
+      logoElement.src = logo;
+      logoElement.alt = "Logo";
+      document.getElementById("confLanguage").textContent = language;
+      document.getElementById("confCategory").textContent = category;
+      document.getElementById("confEpg").textContent = epg;
+      document.getElementById("confHd").textContent = hd;
+      document.getElementById("confUrl").textContent = url;
+
+      // Set video source dynamically
+      var videoElement = document.querySelector("video");
+      videoElement.src = url;
+
+      // Initialize Plyr player
+      var player = new Plyr(videoElement);
+
+      function uploadToAirtable() {
+        var airtableEndpoint =
+          "https://api.airtable.com/v0/appTnh3CpgIpJimKs/Channels";
+        var apiKey = "keyTUbY2vt7jlZhDa";
+
+        var data = {
+          fields: {
+            Name: name,
+            Logo: logo,
+            Language: language,
+            Category: category,
+            Epg: epg,
+            HD: hd,
+            // Change 'URL' to 'Url'
+            Url: url,
+          },
+        };
+
+        fetch(airtableEndpoint, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: "Bearer " + apiKey,
+          },
+          body: JSON.stringify(data),
+        })
+          .then((response) => response.json())
+          .then((result) => {
+            console.log("Data uploaded successfully:", result);
+            alert("Data uploaded successfully!");
+            sessionStorage.clear();
+            window.location.href = "index.html";
+          })
+          .catch((error) => {
+            console.error("Error uploading data to Airtable:", error);
+            alert("Error uploading data to Airtable. Please try again.");
+          });
+      }
+    </script>
+  </body>
+</html>

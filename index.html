@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloudinary Image Upload</title>
+    <!-- Add Cloudinary upload widget script -->
+    <script
+      src="https://widget.cloudinary.com/v2.0/global/all.js"
+      type="text/javascript"></script>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f8f8f8;
+        margin: 10px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+      }
+
+      .container {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        width: 100%;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      form {
+        display: grid;
+        grid-gap: 20px;
+      }
+
+      label {
+        font-size: 16px;
+        color: #555;
+      }
+
+      input,
+      select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 14px;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      #upload_widget {
+        background-color: #008cba;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+        transition: background-color 0.3s;
+      }
+
+      #upload_widget:hover {
+        background-color: #007aa8;
+      }
+      .divspace {
+        margin-top: 55px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Upload Channels to Server</h1>
+
+      <!-- Button to trigger the Cloudinary upload widget -->
+
+      <form id="uploadForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <button id="upload_widget">Upload Logo</button>
+
+        <label for="logo">Logo URL:</label>
+        <input type="text" id="logo" name="logo" required />
+
+        <label for="language">Language:</label>
+        <select id="language" name="language" required>
+          <option value="Malayalam">Malayalam</option>
+          <option value="Tamil">Tamil</option>
+          <option value="Hindi">Hindi</option>
+          <option value="Telugu">Telugu</option>
+          <option value="English">English</option>
+        </select>
+
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+          <option value="Entertainment">Entertainment</option>
+          <option value="News">News</option>
+          <option value="Music">Music</option>
+          <option value="Movie">Movie</option>
+          <option value="Sports">Sports</option>
+          <option value="Kids">Kids</option>
+          <option value="Devotional">Devotional</option>
+        </select>
+
+        <label for="epg">EPG:</label>
+        <input type="text" id="epg" name="epg" required />
+
+        <label for="hd">HD Channel:</label>
+        <select id="hd" name="hd" required>
+          <option value="HD">Yes</option>
+          <option value="SD">No</option>
+        </select>
+
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url" required />
+
+        <div class="divspace"></div>
+
+        <button type="button" onclick="showConfirmation()">
+          Review and Confirm
+        </button>
+      </form>
+    </div>
+
+    <!-- Script to initialize Cloudinary upload widget -->
+    <script type="text/javascript">
+      // Replace placeholders with your Cloudinary credentials
+      var cloudName = "dxip0zvuo";
+      var apiKey = "355756453494638";
+      var uploadPreset = "lsjyr9cc";
+
+      var myWidget = cloudinary.createUploadWidget(
+        {
+          cloudName: cloudName,
+          apiKey: apiKey,
+          uploadPreset: uploadPreset,
+          sources: ["local", "url", "camera", "image_search"],
+          multiple: false,
+          cropping: true,
+          image_file_type: "image", // Set the image_file_type to 'image'
+        },
+        (error, result) => {
+          if (!error && result && result.event === "success") {
+            console.log("Done! Here is the image info: ", result.info);
+            // You can handle the image info here, such as extracting the URL
+            var imageUrl = result.info.secure_url;
+            console.log("Image URL: ", imageUrl);
+            // Set the value of the logo and url input to the uploaded image URL
+            document.getElementById("logo").value = imageUrl;
+          }
+        }
+      );
+
+      // Open the Cloudinary upload widget when the button is clicked
+      document.getElementById("upload_widget").addEventListener(
+        "click",
+        function () {
+          myWidget.open();
+        },
+        false
+      );
+
+      function showConfirmation() {
+        var name = document.getElementById("name").value;
+        var logo = document.getElementById("logo").value;
+        var language = document.getElementById("language").value;
+        var category = document.getElementById("category").value;
+        var epg = document.getElementById("epg").value;
+        var hd = document.getElementById("hd").value;
+        var url = document.getElementById("url").value;
+
+        if (!name || !logo || !language || !category || !epg || !hd || !url) {
+          alert("Please fill in all fields before proceeding.");
+          return;
+        }
+
+        sessionStorage.setItem("name", name);
+        sessionStorage.setItem("logo", logo);
+        sessionStorage.setItem("language", language);
+        sessionStorage.setItem("category", category);
+        sessionStorage.setItem("epg", epg);
+        sessionStorage.setItem("hd", hd);
+        sessionStorage.setItem("url", url);
+
+        window.location.href = "confirmation.html";
+      }
+    </script>
+  </body>
+</html>
