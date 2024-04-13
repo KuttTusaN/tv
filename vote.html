@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Add Vote</title>
     <style>
-      /* Existing styles for user pics and names */
       body {
         font-family: Arial, sans-serif;
+      }
+
+      .header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      .header-title {
+        margin: 0;
       }
 
       .user-pics-container {
@@ -31,18 +41,6 @@
       .user-name {
         font-size: 14px;
         color: #666;
-      }
-
-      /* New styles for header */
-      .header {
-        background-color: #333;
-        color: #fff;
-        padding: 20px 0;
-        text-align: center;
-      }
-
-      .header-title {
-        margin: 0;
       }
     </style>
   </head>
@@ -68,49 +66,11 @@
         messagingSenderId: "999287626395",
         appId: "1:999287626395:web:7ded376396f7e2d2aa443e",
       };
+
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
       const database = firebase.database();
-      const auth = firebase.auth(); // Add Firebase Auth
-
-      // Function to fetch and display user data
-      function displayUserPics() {
-        const userPicsContainer = document.getElementById("userPics");
-        userPicsContainer.innerHTML = ""; // Clear previous data
-
-        const usersRef = database.ref("users");
-        usersRef.once("value", (snapshot) => {
-          const userData = snapshot.val();
-          for (let userId in userData) {
-            const user = userData[userId];
-            const userDiv = document.createElement("div");
-            userDiv.classList.add("user-pic");
-            userDiv.setAttribute("data-user-id", userId);
-            userDiv.setAttribute("data-current-vote", user.userVote || 0);
-            userDiv.addEventListener("click", () => addVote(userId));
-            const img = document.createElement("img");
-            img.src = user.userPic;
-            img.alt = "User Image";
-            const name = document.createElement("div");
-            name.textContent = user.userName; // Add user name
-            name.classList.add("user-name"); // Add class for styling
-            userDiv.appendChild(img);
-            userDiv.appendChild(name); // Append user name below the image
-            userPicsContainer.appendChild(userDiv);
-          }
-        });
-      }
-
-      // Function to add a vote for a user
-      function addVote(userId) {
-        const userDiv = document.querySelector(
-          `.user-pic[data-user-id="${userId}"]`
-        );
-        const currentVote = parseInt(userDiv.getAttribute("data-current-vote"));
-        const userRef = database.ref("users/" + userId);
-        userRef.update({ userVote: currentVote + 1 });
-        userDiv.setAttribute("data-current-vote", currentVote + 1);
-      }
+      const auth = firebase.auth();
 
       // Google login button
       const googleLoginBtn = document.getElementById("googleLoginBtn");
@@ -133,9 +93,6 @@
 
       // Google login button click event
       googleLoginBtn.addEventListener("click", googleLogin);
-
-      // Call the function to display user pictures when the page loads
-      displayUserPics();
     </script>
   </body>
 </html>
