@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html>
 <head>
+  <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://apis.google.com;">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-  <script src="https://apis.google.com/js/api:client.js"></script><meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://apis.google.com;">
-
+  <script src="https://apis.google.com/js/api:client.js"></script>
   <script>
   var googleUser = {};
   var startApp = function() {
@@ -65,8 +66,8 @@
       font-family: 'Roboto', sans-serif;
     }
   </style>
-  </head>
-  <body>
+</head>
+<body>
   <!-- In the callback, you would hide the gSignInWrapper element on a
   successful sign in -->
   <div id="gSignInWrapper">
