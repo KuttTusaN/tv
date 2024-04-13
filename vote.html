@@ -1,211 +1,47 @@
 <!DOCTYPE html>
-<!--
-Copyright (c) 2016 Google Inc.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
--->
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <title>Google Sign-In Example</title>
+    <!-- Include the Google Sign-In client library -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!-- Define the Google Sign-In client ID -->
     <meta
       name="google-signin-client_id"
       content="999287626395-kfp6b0g8t8hk3dar1et0l7ucmbvp83ku.apps.googleusercontent.com" />
-    <meta name="google-signin-cookiepolicy" content="single_host_origin" />
-    <meta name="google-signin-scope" content="profile email" />
-    <!-- [END google_config] -->
-    <title>Google Sign In Example</title>
-
-    <!-- Material Design Theming -->
-    <link
-      rel="stylesheet"
-      href="https://code.getmdl.io/1.1.3/material.orange-indigo.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
-
-    <link rel="stylesheet" href="main.css" />
-
-    <!-- Google Sign In -->
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-
-    <script src="/__/firebase/9.22.1/firebase-app-compat.js"></script>
-    <script src="/__/firebase/9.22.1/firebase-auth-compat.js"></script>
-    <script src="/__/firebase/init.js"></script>
-
-    <script type="text/javascript">
-      function onSignIn(googleUser) {
-        console.log("Google Auth Response", googleUser);
-        var unsubscribe = firebase
-          .auth()
-          .onAuthStateChanged(function (firebaseUser) {
-            unsubscribe();
-            if (!isUserEqual(googleUser, firebaseUser)) {
-              var credential = firebase.auth.GoogleAuthProvider.credential(
-                googleUser.getAuthResponse().id_token
-              );
-
-              firebase
-                .auth()
-                .signInWithCredential(credential)
-                .then(function (result) {
-                  // This gives you a Google Access Token.
-                  var token = result.credential.accessToken;
-                  // The signed-in user info.
-                  var user = result.user;
-                  // Display user name and email
-                  document.getElementById("user-name").textContent =
-                    user.displayName;
-                  document.getElementById("user-email").textContent =
-                    user.email;
-                })
-                .catch(function (error) {
-                  var errorCode = error.code;
-                  var errorMessage = error.message;
-                  var email = error.email;
-                  var credential = error.credential;
-                  if (
-                    errorCode ===
-                    "auth/account-exists-with-different-credential"
-                  ) {
-                    alert(
-                      "You have already signed up with a different auth provider for that email."
-                    );
-                  } else {
-                    console.error(error);
-                  }
-                });
-            } else {
-              console.log("User already signed-in Firebase.");
-            }
-          });
+    <!-- Add some basic styling (optional) -->
+    <style>
+      .g-signin2 {
+        margin-top: 20px;
       }
-
-      function isUserEqual(googleUser, firebaseUser) {
-        if (firebaseUser) {
-          var providerData = firebaseUser.providerData;
-          for (var i = 0; i < providerData.length; i++) {
-            if (
-              providerData[i].providerId ===
-                firebase.auth.GoogleAuthProvider.PROVIDER_ID &&
-              providerData[i].uid === googleUser.getBasicProfile().getId()
-            ) {
-              return true;
-            }
-          }
-        }
-        return false;
-      }
-
-      function handleSignOut() {
-        var googleAuth = gapi.auth2.getAuthInstance();
-        googleAuth.signOut().then(function () {
-          firebase.auth().signOut();
-        });
-      }
-
-      function initApp() {
-        // Auth state changes.
-        firebase.auth().onAuthStateChanged(function (user) {
-          if (user) {
-            // User is signed in.
-            var displayName = user.displayName;
-            var email = user.email;
-            var emailVerified = user.emailVerified;
-            var photoURL = user.photoURL;
-            var isAnonymous = user.isAnonymous;
-            var uid = user.uid;
-            var providerData = user.providerData;
-            document.getElementById("quickstart-sign-in-status").textContent =
-              "Signed in";
-            document.getElementById("signout").disabled = false;
-            document.getElementById("quickstart-account-details").textContent =
-              JSON.stringify(user, null, "  ");
-          } else {
-            // User is signed out.
-            document.getElementById("quickstart-sign-in-status").textContent =
-              "Signed out";
-            document.getElementById("signout").disabled = true;
-            document.getElementById("quickstart-account-details").textContent =
-              "null";
-          }
-        });
-
-        document
-          .getElementById("signout")
-          .addEventListener("click", handleSignOut, false);
-      }
-
-      window.onload = function () {
-        initApp();
-      };
-    </script>
+    </style>
   </head>
   <body>
-    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <!-- Header section containing title -->
-      <header
-        class="mdl-layout__header mdl-color-text--white mdl-color--light-blue-700">
-        <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
-          <div
-            class="mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--8-col-desktop">
-            <a href="/"><h3>Firebase Authentication</h3></a>
-          </div>
-        </div>
-      </header>
+    <h2>Google Sign-In Example</h2>
+    <!-- Add a sign-in button -->
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <!-- Script to handle sign-in success -->
+    <script>
+      function onSignIn(googleUser) {
+        // Retrieve user information
+        var profile = googleUser.getBasicProfile();
+        console.log("ID: " + profile.getId()); // Do not send this directly to your server!
+        console.log("Name: " + profile.getName());
+        console.log("Image URL: " + profile.getImageUrl());
+        console.log("Email: " + profile.getEmail()); // This is null if the 'email' scope is not present
 
-      <main class="mdl-layout__content mdl-color--grey-100">
-        <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
-          <!-- Container for the demo -->
-          <div
-            class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
-            <div
-              class="mdl-card__title mdl-color--light-blue-600 mdl-color-text--white">
-              <h2 class="mdl-card__title-text">
-                Google Authentication with OAuth Credentials
-              </h2>
-            </div>
-            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-              <p>Sign in with your Google account below.</p>
-              <!-- [START google_button] -->
-              <div
-                class="g-signin2"
-                data-onsuccess="onSignIn"
-                data-theme="dark"></div>
-              <!-- [END google_button] -->
-              <br />
-              <button
-                disabled
-                class="mdl-button mdl-js-button mdl-button--raised"
-                id="signout"
-                name="signout">
-                Sign Out
-              </button>
+        // You can send the user data to your server for further processing
+        // Example: Send user's email to your server for authentication
+        var email = profile.getEmail();
+        // Send 'email' to your server using AJAX or any other method
 
-              <div class="quickstart-user-details-container">
-                Firebase sign-in status:
-                <span id="quickstart-sign-in-status">Unknown</span>
-                <div>Firebase auth <code>currentUser</code> object value:</div>
-                <pre><code id="quickstart-account-details">null</code></pre>
-                <div>User Name: <span id="user-name"></span></div>
-                <div>Email: <span id="user-email"></span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </main>
-    </div>
+        // Optionally, you can sign out the user by calling:
+        // var auth2 = gapi.auth2.getAuthInstance();
+        // auth2.signOut().then(function () {
+        //     console.log('User signed out.');
+        // });
+      }
+    </script>
   </body>
 </html>
