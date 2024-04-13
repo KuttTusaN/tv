@@ -4,22 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Add Vote</title>
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Existing styles for user pics and names */
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      .user-pics-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .user-pic {
+        width: 150px;
+        text-align: center;
+      }
+
+      .user-pic img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+
+      .user-name {
+        font-size: 14px;
+        color: #666;
+      }
+
+      /* New styles for header */
+      .header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      .header-title {
+        margin: 0;
+      }
+    </style>
   </head>
   <body>
     <header class="header">
       <h1 class="header-title">Vote for Your Favorite User</h1>
-      <button onclick="googleSignIn()">Sign in with Google</button>
-      <button onclick="signOut()">Sign Out</button>
     </header>
 
     <div class="user-pics-container" id="userPics"></div>
 
+    <button id="googleLoginBtn">Sign in with Google</button>
+
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
     <script>
-      // Initialize Firebase
       const firebaseConfig = {
         apiKey: "AIzaSyDXSLlef9SYpaP6ZGZvieMEsdn5PvQxhJw",
         authDomain: "direct-tv-b8cbc.firebaseapp.com",
@@ -29,61 +68,12 @@
         messagingSenderId: "999287626395",
         appId: "1:999287626395:web:7ded376396f7e2d2aa443e",
       };
-
+      // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
-      const auth = firebase.auth();
       const database = firebase.database();
+      const auth = firebase.auth(); // Add Firebase Auth
 
-      let currentUser;
-
-      // Function to handle Google sign-in
-      function googleSignIn() {
-        const provider = new firebase.auth.GoogleAuthProvider();
-        auth
-          .signInWithPopup(provider)
-          .then((result) => {
-            currentUser = result.user;
-            // Check if user data exists in the database
-            checkUserData();
-          })
-          .catch((error) => {
-            console.error(error);
-          });
-      }
-
-      // Function to sign out
-      function signOut() {
-        auth
-          .signOut()
-          .then(() => {
-            console.log("User signed out successfully");
-          })
-          .catch((error) => {
-            console.error(error);
-          });
-      }
-
-      // Function to check user data in the database
-      function checkUserData() {
-        database
-          .ref("users/" + currentUser.uid)
-          .once("value")
-          .then((snapshot) => {
-            const userData = snapshot.val();
-            if (!userData) {
-              // New user, add to database
-              database.ref("users/" + currentUser.uid).set({
-                displayName: currentUser.displayName,
-                email: currentUser.email,
-                votes: 0,
-                lastVoteDate: null,
-              });
-            }
-            displayUserPics();
-          });
-      }
-
-      // Function to display user pictures
+      // Function to fetch and display user data
       function displayUserPics() {
         const userPicsContainer = document.getElementById("userPics");
         userPicsContainer.innerHTML = ""; // Clear previous data
@@ -96,47 +86,56 @@
             const userDiv = document.createElement("div");
             userDiv.classList.add("user-pic");
             userDiv.setAttribute("data-user-id", userId);
-            userDiv.setAttribute("data-current-vote", user.votes || 0);
+            userDiv.setAttribute("data-current-vote", user.userVote || 0);
             userDiv.addEventListener("click", () => addVote(userId));
             const img = document.createElement("img");
-            img.src = "user.png"; // Replace with actual user image URL from user data
+            img.src = user.userPic;
             img.alt = "User Image";
             const name = document.createElement("div");
-            name.textContent = user.displayName;
-            name.classList.add("user-name");
+            name.textContent = user.userName; // Add user name
+            name.classList.add("user-name"); // Add class for styling
             userDiv.appendChild(img);
-            userDiv.appendChild(name);
+            userDiv.appendChild(name); // Append user name below the image
             userPicsContainer.appendChild(userDiv);
           }
         });
       }
 
-      // Function to add a vote
+      // Function to add a vote for a user
       function addVote(userId) {
+        const userDiv = document.querySelector(
+          `.user-pic[data-user-id="${userId}"]`
+        );
+        const currentVote = parseInt(userDiv.getAttribute("data-current-vote"));
         const userRef = database.ref("users/" + userId);
-        userRef
-          .once("value")
-          .then((snapshot) => {
-            const userData = snapshot.val();
-            const today = new Date().toDateString();
-            if (userData.lastVoteDate !== today && userData.votes < 15) {
-              // Allow vote
-              userRef.update({
-                votes: userData.votes + 1,
-                lastVoteDate: today,
-              });
-              console.log("Vote added successfully!");
-            } else {
-              // Limit reached or already voted today
-              console.log(
-                "You have already voted today or reached the limit of 15 votes."
-              );
-            }
+        userRef.update({ userVote: currentVote + 1 });
+        userDiv.setAttribute("data-current-vote", currentVote + 1);
+      }
+
+      // Google login button
+      const googleLoginBtn = document.getElementById("googleLoginBtn");
+
+      // Google login function
+      function googleLogin() {
+        const provider = new firebase.auth.GoogleAuthProvider();
+        auth
+          .signInWithPopup(provider)
+          .then((result) => {
+            // Signed in successfully, update UI with user info
+            const user = result.user;
+            console.log("User:", user);
           })
           .catch((error) => {
-            console.error(error);
+            // Handle errors
+            console.error("Google login error:", error);
           });
       }
+
+      // Google login button click event
+      googleLoginBtn.addEventListener("click", googleLogin);
+
+      // Call the function to display user pictures when the page loads
+      displayUserPics();
     </script>
   </body>
 </html>
