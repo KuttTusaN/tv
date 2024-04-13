@@ -1,85 +1,57 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google Sign-In</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-  <script src="https://apis.google.com/js/api:client.js"></script>
-  <script>
-  var googleUser = {};
-  var startApp = function() {
-    gapi.load('auth2', function(){
-      // Retrieve the singleton for the GoogleAuth library and set up the client.
-      auth2 = gapi.auth2.init({
-        client_id: '999287626395-2k7r4j0ia7ocsh5p2l7lulor0i9dvacd.apps.googleusercontent.com',
-        cookiepolicy: 'single_host_origin',
-        // Request scopes in addition to 'profile' and 'email'
-        //scope: 'additional_scope'
-      });
-      attachSignin(document.getElementById('customBtn'));
-    });
-  };
+  <head>
 
-  function attachSignin(element) {
-    console.log(element.id);
-    auth2.attachClickHandler(element, {},
-        function(googleUser) {
-          document.getElementById('name').innerText = "Signed in: " +
-              googleUser.getBasicProfile().getName();
-        }, function(error) {
-          alert(JSON.stringify(error, undefined, 2));
-        });
+ <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"> 
+
+<meta name="google-signin-clientid" content="'999287626395-2k7r4j0ia7ocsh5p2l7lulor0i9dvacd.apps.googleusercontent.com" />
+<meta name="google-signin-scope" content="https://www.googleapis.com/auth/plus.login" />
+<meta name="google-signin-requestvisibleactions" content="http://schema.org/AddAction" />
+<meta name="google-signin-cookiepolicy" content="single_host_origin" />
+<script src="https://apis.google.com/js/client:platform.js" async defer></script>
+
+
+<script type="text/javascript">
+
+  function signinCallback(authResult) {
+    if (authResult['status']['signed_in']) {
+      // Update the app to reflect a signed in user
+      // Hide the sign-in button now that the user is authorized, for example:
+      document.getElementById('signinButton').setAttribute('style', 'display: none');
+    } else {
+      // Update the app to reflect a signed out user
+      // Possible error values:
+      //   "user_signed_out" - User is signed-out
+      //   "access_denied" - User denied access to your app
+      //   "immediate_failed" - Could not automatically log in the user
+      console.log('Sign-in state: ' + authResult['error']);
+    }
   }
-  </script>
-  <style type="text/css">
-    #customBtn {
-      display: inline-block;
-      background: white;
-      color: #444;
-      width: 190px;
-      border-radius: 5px;
-      border: thin solid #888;
-      box-shadow: 1px 1px 1px grey;
-      white-space: nowrap;
-    }
-    #customBtn:hover {
-      cursor: pointer;
-    }
-    span.label {
-      font-family: serif;
-      font-weight: normal;
-    }
-    span.icon {
-      background: url('/identity/sign-in/g-normal.png') transparent 5px 50% no-repeat;
-      display: inline-block;
-      vertical-align: middle;
-      width: 42px;
-      height: 42px;
-    }
-    span.buttonText {
-      display: inline-block;
-      vertical-align: middle;
-      padding-left: 42px;
-      padding-right: 42px;
-      font-size: 14px;
-      font-weight: bold;
-      /* Use the Roboto font that is loaded in the <head> */
-      font-family: 'Roboto', sans-serif;
-    }
-  </style>
-</head>
-<body>
-  <!-- In the callback, you would hide the gSignInWrapper element on a
-  successful sign in -->
-  <div id="gSignInWrapper">
-    <span class="label">Sign in with:</span>
-    <div id="customBtn" class="customGPlusSignIn">
-      <span class="icon"></span>
-      <span class="buttonText">Google</span>
-    </div>
-  </div>
-  <div id="name"></div>
-  <script>startApp();</script>
-</body>
+
+
+ function render() {
+  alert("1");
+   // Additional params including the callback, the rest of the params will
+   // come from the page-level configuration.
+   var additionalParams = {
+     'callback': signinCallback
+   };
+   alert("2");
+   // Attach a click listener to a button to trigger the flow.
+   var signinButton = document.getElementById('signinButton');
+   signinButton.addEventListener('click', function() {
+     gapi.auth.signIn(additionalParams); // Will use page level configuration
+     alert("3");
+   });
+ }
+</script>
+
+  </head>
+
+  <body>
+
+    <button id="signinButton">Sign in with Google</button>
+
+  </body>
+
+
 </html>
