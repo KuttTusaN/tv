@@ -21,7 +21,7 @@
 <body>
     <h2>Google Sign-In Example</h2>
     <!-- Add a sign-in button -->
-    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <div class="g-signin2" data-onsuccess="onSignIn" data-onfailure="onSignInFailure"></div>
     <!-- Success message -->
     <p id="successMsg" style="display: none;">Sign in successful!</p>
     <!-- Sign out button -->
@@ -48,6 +48,10 @@
             // Example: Send user's email to your server for authentication
             var email = profile.getEmail();
             // Send 'email' to your server using AJAX or any other method
+        }
+
+        function onSignInFailure(error) {
+            console.error('Sign-in failure:', error);
         }
 
         function signOut() {
