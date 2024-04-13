@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Vote</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-title">Vote for Your Favorite User</h1>
+      <button onclick="googleSignIn()">Sign in with Google</button>
+      <button onclick="signOut()">Sign Out</button>
+    </header>
+
+    <div class="user-pics-container" id="userPics"></div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    <script>
+      // Initialize Firebase
+      const firebaseConfig = {
+        // Your Firebase config
+      };
+
+      firebase.initializeApp(firebaseConfig);
+      const auth = firebase.auth();
+      const database = firebase.database();
+
+      let currentUser;
+
+      // Function to handle Google sign-in
+      function googleSignIn() {
+        const provider = new firebase.auth.GoogleAuthProvider();
+        auth
+          .signInWithPopup(provider)
+          .then((result) => {
+            currentUser = result.user;
+            // Check if user data exists in the database
+            checkUserData();
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+      }
+
+      // Function to sign out
+      function signOut() {
+        auth
+          .signOut()
+          .then(() => {
+            console.log("User signed out successfully");
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+      }
+
+      // Function to check user data in the database
+      function checkUserData() {
+        database
+          .ref("users/" + currentUser.uid)
+          .once("value")
+          .then((snapshot) => {
+            const userData = snapshot.val();
+            if (!userData) {
+              // New user, add to database
+              database.ref("users/" + currentUser.uid).set({
+                displayName: currentUser.displayName,
+                email: currentUser.email,
+                votes: 0,
+                lastVoteDate: null,
+              });
+            }
+            displayUserPics();
+          });
+      }
+
+      // Function to display user pictures
+      function displayUserPics() {
+        const userPicsContainer = document.getElementById("userPics");
+        userPicsContainer.innerHTML = ""; // Clear previous data
+
+        const usersRef = database.ref("users");
+        usersRef.once("value", (snapshot) => {
+          const userData = snapshot.val();
+          for (let userId in userData) {
+            const user = userData[userId];
+            const userDiv = document.createElement("div");
+            userDiv.classList.add("user-pic");
+            userDiv.setAttribute("data-user-id", userId);
+            userDiv.setAttribute("data-current-vote", user.votes || 0);
+            userDiv.addEventListener("click", () => addVote(userId));
+            const img = document.createElement("img");
+            img.src = "user.png"; // Replace with actual user image URL from user data
+            img.alt = "User Image";
+            const name = document.createElement("div");
+            name.textContent = user.displayName;
+            name.classList.add("user-name");
+            userDiv.appendChild(img);
+            userDiv.appendChild(name);
+            userPicsContainer.appendChild(userDiv);
+          }
+        });
+      }
+
+      // Function to add a vote
+      function addVote(userId) {
+        const userRef = database.ref("users/" + userId);
+        userRef
+          .once("value")
+          .then((snapshot) => {
+            const userData = snapshot.val();
+            const today = new Date().toDateString();
+            if (userData.lastVoteDate !== today && userData.votes < 15) {
+              // Allow vote
+              userRef.update({
+                votes: userData.votes + 1,
+                lastVoteDate: today,
+              });
+              console.log("Vote added successfully!");
+            } else {
+              // Limit reached or already voted today
+              console.log(
+                "You have already voted today or reached the limit of 15 votes."
+              );
+            }
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+      }
+    </script>
+  </body>
+</html>
