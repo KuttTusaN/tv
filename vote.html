@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Add Vote</title>
     <style>
+      /* CSS styles */
       body {
         font-family: Arial, sans-serif;
       }
@@ -47,15 +48,17 @@
   <body>
     <header class="header">
       <h1 class="header-title">Vote for Your Favorite User</h1>
+      <div id="googleSignInButton"></div>
     </header>
 
     <div class="user-pics-container" id="userPics"></div>
 
-    <button id="googleLoginBtn">Sign in with Google</button>
-
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script
+      src="https://apis.google.com/js/platform.js?onload=initGoogleSignIn"
+      async
+      defer></script>
     <script>
       const firebaseConfig = {
         apiKey: "AIzaSyDXSLlef9SYpaP6ZGZvieMEsdn5PvQxhJw",
@@ -66,33 +69,82 @@
         messagingSenderId: "999287626395",
         appId: "1:999287626395:web:7ded376396f7e2d2aa443e",
       };
-
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
       const database = firebase.database();
-      const auth = firebase.auth();
 
-      // Google login button
-      const googleLoginBtn = document.getElementById("googleLoginBtn");
-
-      // Google login function
-      function googleLogin() {
-        const provider = new firebase.auth.GoogleAuthProvider();
-        auth
-          .signInWithPopup(provider)
-          .then((result) => {
-            // Signed in successfully, update UI with user info
-            const user = result.user;
-            console.log("User:", user);
-          })
-          .catch((error) => {
-            // Handle errors
-            console.error("Google login error:", error);
+      // Initialize Google Sign-In
+      function initGoogleSignIn() {
+        gapi.load("auth2", function () {
+          const auth2 = gapi.auth2.init({
+            client_id:
+              "999287626395-feroc74e61mdc1pr86evsj391n2vo6it.apps.googleusercontent.com",
           });
+          auth2.attachClickHandler(
+            document.getElementById("googleSignInButton"),
+            {},
+            onGoogleSignIn,
+            onSignInFailure
+          );
+        });
       }
 
-      // Google login button click event
-      googleLoginBtn.addEventListener("click", googleLogin);
+      // Callback function for successful sign-in
+      function onGoogleSignIn(googleUser) {
+        const profile = googleUser.getBasicProfile();
+        console.log("ID: " + profile.getId()); // Do not send to your backend! Use an ID token instead.
+        console.log("Name: " + profile.getName());
+        console.log("Image URL: " + profile.getImageUrl());
+        console.log("Email: " + profile.getEmail()); // This is null if the 'email' scope is not present.
+        // You can integrate this information with your Firebase database here
+      }
+
+      // Callback function for sign-in failure
+      function onSignInFailure(error) {
+        console.error("Sign-in failed:", error);
+      }
+
+      // Function to fetch and display user data
+      function displayUserPics() {
+        const userPicsContainer = document.getElementById("userPics");
+        userPicsContainer.innerHTML = ""; // Clear previous data
+
+        const usersRef = database.ref("users");
+        usersRef.once("value", (snapshot) => {
+          const userData = snapshot.val();
+          for (let userId in userData) {
+            const user = userData[userId];
+            const userDiv = document.createElement("div");
+            userDiv.classList.add("user-pic");
+            userDiv.setAttribute("data-user-id", userId);
+            userDiv.setAttribute("data-current-vote", user.userVote || 0);
+            userDiv.addEventListener("click", () => addVote(userId));
+            const img = document.createElement("img");
+            img.src = user.userPic;
+            img.alt = "User Image";
+            const name = document.createElement("div");
+            name.textContent = user.userName; // Add user name
+            name.classList.add("user-name"); // Add class for styling
+            userDiv.appendChild(img);
+            userDiv.appendChild(name); // Append user name below the image
+            userPicsContainer.appendChild(userDiv);
+          }
+        });
+      }
+
+      // Function to add a vote for a user
+      function addVote(userId) {
+        const userDiv = document.querySelector(
+          `.user-pic[data-user-id="${userId}"]`
+        );
+        const currentVote = parseInt(userDiv.getAttribute("data-current-vote"));
+        const userRef = database.ref("users/" + userId);
+        userRef.update({ userVote: currentVote + 1 });
+        userDiv.setAttribute("data-current-vote", currentVote + 1);
+      }
+
+      // Call the function to display user pictures when the page loads
+      displayUserPics();
     </script>
   </body>
 </html>
