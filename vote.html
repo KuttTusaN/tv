@@ -3,40 +3,254 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Google Login</title>
-    <meta
-      name="google-signin-client_id"
-      content="999287626395-2k7r4j0ia7ocsh5p2l7lulor0i9dvacd.apps.googleusercontent.com" />
+    <title>Add Vote</title>
+    <style>
+      /* CSS styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .header-title {
+        margin: 0;
+        font-size: 24px;
+      }
+
+      .header-votes {
+        font-size: 18px;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 0 20px;
+      }
+
+      .user-pics-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+
+      .user-pic {
+        position: relative;
+        width: 150px;
+        text-align: center;
+        cursor: pointer; /* Add cursor pointer for better user interaction */
+        transition: transform 0.2s ease; /* Add smooth transition */
+      }
+
+      .user-pic img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        border: 4px solid #fff;
+      }
+
+      .user-name {
+        font-size: 14px;
+        color: #333;
+      }
+
+      .user-votes {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: #333;
+        color: #fff;
+        padding: 5px 8px;
+        border-radius: 50%;
+        font-size: 12px;
+      }
+
+      /* Animation */
+      .user-pic.clicked {
+        animation: bounce 0.5s, success 1s forwards;
+      }
+
+      @keyframes bounce {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      @keyframes success {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1>Sign in with Google</h1>
-    <script
-      src="https://apis.google.com/js/platform.js?onload=renderButton"
-      async
-      defer></script>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <h1 class="header-title">Vote for Your Favorite User</h1>
+        <div class="header-votes" id="headerVotes"></div>
+        <div id="countdownTimer" style="display: none"></div>
+      </div>
+    </header>
+
+    <!-- User Pics Container -->
+    <div class="container user-pics-container" id="userPics"></div>
+
+    <!-- Firebase scripts -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
     <script>
-      function onSuccess(googleUser) {
-        console.log("Logged in as: " + googleUser.getBasicProfile().getName());
-        // Replace with your server-side logic to process user data
-        // (e.g., send user data to your server using AJAX or form submission)
-      }
+      // Firebase configuration
+      // Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyDXSLlef9SYpaP6ZGZvieMEsdn5PvQxhJw",
+        authDomain: "direct-tv-b8cbc.firebaseapp.com",
+        databaseURL: "https://direct-tv-b8cbc-default-rtdb.firebaseio.com",
+        projectId: "direct-tv-b8cbc",
+        storageBucket: "direct-tv-b8cbc.appspot.com",
+        messagingSenderId: "999287626395",
+        appId: "1:999287626395:web:7ded376396f7e2d2aa443e",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      const database = firebase.database();
 
-      function onFailure(error) {
-        console.error(error);
-      }
+      // Function to fetch and display user data
+      function displayUserPics() {
+        const userPicsContainer = document.getElementById("userPics");
+        userPicsContainer.innerHTML = ""; // Clear previous data
 
-      function renderButton() {
-        gapi.signin2.render("my-signin2", {
-          scope: "profile email", // Adjust scopes as needed
-          width: 240,
-          height: 50,
-          longtitle: true,
-          theme: "dark",
-          onsuccess: onSuccess,
-          onfailure: onFailure,
+        const usersRef = database.ref("users");
+        usersRef.once("value", (snapshot) => {
+          const userData = snapshot.val();
+          for (let userId in userData) {
+            const user = userData[userId];
+            const userDiv = document.createElement("div");
+            userDiv.classList.add("user-pic");
+            userDiv.setAttribute("data-user-id", userId);
+            userDiv.setAttribute("data-current-vote", user.userVote || 0);
+            userDiv.addEventListener("click", () => addVote(userId));
+            const img = document.createElement("img");
+            img.src = user.userPic;
+            img.alt = "User Image";
+            const name = document.createElement("div");
+            name.textContent = user.userName; // Add user name
+            name.classList.add("user-name"); // Add class for styling
+            const votes = document.createElement("div");
+            votes.classList.add("user-votes");
+            const storedVotes = JSON.parse(localStorage.getItem(userId)) || 0;
+            votes.textContent = storedVotes;
+            userDiv.appendChild(img);
+            userDiv.appendChild(name); // Append user name below the image
+            userDiv.appendChild(votes); // Append vote count
+            userPicsContainer.appendChild(userDiv);
+          }
         });
       }
+
+      // Function to add a vote for a user, with a limit of 15 votes per day
+      function addVote(userId) {
+        const userDiv = document.querySelector(
+          `.user-pic[data-user-id="${userId}"]`
+        );
+        const currentVote = parseInt(userDiv.getAttribute("data-current-vote"));
+        let totalVotes = parseInt(localStorage.getItem("totalVotes") || 0);
+
+        // Check if 24 hours have passed since the last vote reset
+        const lastResetTimestamp =
+          parseInt(localStorage.getItem("lastResetTimestamp")) || 0;
+        const now = Date.now();
+        if (now - lastResetTimestamp >= 24 * 60 * 60 * 1000) {
+          localStorage.clear(); // Reset local storage
+          localStorage.setItem("lastResetTimestamp", now); // Update last reset timestamp
+          totalVotes = 0; // Reset total votes
+        }
+
+        if (totalVotes >= 15) {
+          alert("You have reached the daily voting limit of 15 votes.");
+          return;
+        }
+
+        const userVotesElement = userDiv.querySelector(".user-votes");
+        let userVotes = parseInt(userVotesElement.textContent) || 0;
+        userVotes++;
+        userVotesElement.textContent = userVotes; // Update displayed vote count
+        localStorage.setItem(userId, JSON.stringify(userVotes)); // Store vote count for user
+
+        totalVotes++;
+        localStorage.setItem("totalVotes", totalVotes);
+
+        // Update header votes
+        updateHeaderVotes();
+
+        // Add animation class
+        userDiv.classList.add("clicked");
+
+        // Remove animation class after animation completes
+        setTimeout(() => {
+          userDiv.classList.remove("clicked");
+        }, 1500); // Duration of animation in milliseconds
+      }
+
+      // Function to update header votes display
+      function updateHeaderVotes() {
+        const totalVotes = parseInt(localStorage.getItem("totalVotes") || 0);
+        const votesLeft = 15 - totalVotes;
+        const headerVotesElement = document.getElementById("headerVotes");
+        headerVotesElement.textContent = `Votes Left Today: ${votesLeft}`;
+
+        // Check if votes are depleted
+        if (votesLeft === 0) {
+          // Display countdown timer
+          const countdownTimer = document.getElementById("countdownTimer");
+          countdownTimer.style.display = "block";
+
+          // Update timer display continuously
+          const timerInterval = setInterval(() => {
+            const lastResetTimestamp =
+              parseInt(localStorage.getItem("lastResetTimestamp")) || 0;
+            const now = Date.now();
+            const timePassed = now - lastResetTimestamp;
+            const remainingTime = 24 * 60 * 60 * 1000 - timePassed;
+            if (remainingTime <= 0) {
+              clearInterval(timerInterval); // Stop updating timer when it reaches 0
+              countdownTimer.style.display = "none"; // Hide timer
+              return;
+            }
+            const remainingHours = Math.floor(remainingTime / (1000 * 60 * 60));
+            const remainingMinutes = Math.floor(
+              (remainingTime % (1000 * 60 * 60)) / (1000 * 60)
+            );
+            const remainingSeconds = Math.floor(
+              (remainingTime % (1000 * 60)) / 1000
+            );
+            countdownTimer.textContent = `Time until reset: ${remainingHours}h ${remainingMinutes}m ${remainingSeconds}s`;
+          }, 1000); // Update timer every second
+        }
+      }
+
+      // Call the function to display user pictures when the page loads
+      displayUserPics();
+      // Update header votes display
+      updateHeaderVotes();
     </script>
-    <div id="my-signin2"></div>
   </body>
 </html>
