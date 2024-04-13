@@ -1,47 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Sign-In Example</title>
     <!-- Include the Google Sign-In client library -->
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <!-- Define the Google Sign-In client ID -->
-    <meta
-      name="google-signin-client_id"
-      content="999287626395-kfp6b0g8t8hk3dar1et0l7ucmbvp83ku.apps.googleusercontent.com" />
+    <meta name="google-signin-client_id" content="999287626395-kfp6b0g8t8hk3dar1et0l7ucmbvp83ku.apps.googleusercontent.com">
     <!-- Add some basic styling (optional) -->
     <style>
-      .g-signin2 {
-        margin-top: 20px;
-      }
+        .g-signin2 {
+            margin-top: 20px;
+        }
+        #signOutBtn {
+            display: none;
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <h2>Google Sign-In Example</h2>
     <!-- Add a sign-in button -->
     <div class="g-signin2" data-onsuccess="onSignIn"></div>
-    <!-- Script to handle sign-in success -->
+    <!-- Success message -->
+    <p id="successMsg" style="display: none;">Sign in successful!</p>
+    <!-- Sign out button -->
+    <button id="signOutBtn" onclick="signOut()">Sign out</button>
+    
+    <!-- Script to handle sign-in success and sign out -->
     <script>
-      function onSignIn(googleUser) {
-        // Retrieve user information
-        var profile = googleUser.getBasicProfile();
-        console.log("ID: " + profile.getId()); // Do not send this directly to your server!
-        console.log("Name: " + profile.getName());
-        console.log("Image URL: " + profile.getImageUrl());
-        console.log("Email: " + profile.getEmail()); // This is null if the 'email' scope is not present
+        function onSignIn(googleUser) {
+            // Show success message
+            document.getElementById('successMsg').style.display = 'block';
+            // Hide sign-in button
+            document.querySelector('.g-signin2').style.display = 'none';
+            // Show sign-out button
+            document.getElementById('signOutBtn').style.display = 'inline-block';
+            
+            // Retrieve user information
+            var profile = googleUser.getBasicProfile();
+            console.log('ID: ' + profile.getId()); // Do not send this directly to your server!
+            console.log('Name: ' + profile.getName());
+            console.log('Image URL: ' + profile.getImageUrl());
+            console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present
 
-        // You can send the user data to your server for further processing
-        // Example: Send user's email to your server for authentication
-        var email = profile.getEmail();
-        // Send 'email' to your server using AJAX or any other method
+            // You can send the user data to your server for further processing
+            // Example: Send user's email to your server for authentication
+            var email = profile.getEmail();
+            // Send 'email' to your server using AJAX or any other method
+        }
 
-        // Optionally, you can sign out the user by calling:
-        // var auth2 = gapi.auth2.getAuthInstance();
-        // auth2.signOut().then(function () {
-        //     console.log('User signed out.');
-        // });
-      }
+        function signOut() {
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut().then(function () {
+                // Hide sign-out button
+                document.getElementById('signOutBtn').style.display = 'none';
+                // Show sign-in button
+                document.querySelector('.g-signin2').style.display = 'block';
+                // Clear success message
+                document.getElementById('successMsg').style.display = 'none';
+                console.log('User signed out.');
+            });
+        }
     </script>
-  </body>
+</body>
 </html>
