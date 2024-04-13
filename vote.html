@@ -18,27 +18,14 @@ limitations under the License.
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--
-    Note that Google Sign In does not work from a file URL. You will need to make
-    this page available from a web server, either from localhost or using Firebase
-    Hosting.
 
-    Whichever domain it is running on, you'll have to add the origin for that domain
-    in the Google Developer Console: https://console.developers.google.com, search
-    for Credentials and create a new credential > OAuth client ID > web application,
-    and set the domain as an authorised origin (e.g. http://localhost:8000 or https://foo.bar).
-    -->
-    <!-- [START google_config] -->
-    <!-- **********************************************
-       * TODO(DEVELOPER): Use your Client ID below. *
-       ********************************************** -->
     <meta
       name="google-signin-client_id"
-      content="598676075183-st7pb3rvevr6cqrpd8bkjqbh7bvls6j3.apps.googleusercontent.com" />
+      content="999287626395-kfp6b0g8t8hk3dar1et0l7ucmbvp83ku.apps.googleusercontent.com" />
     <meta name="google-signin-cookiepolicy" content="single_host_origin" />
     <meta name="google-signin-scope" content="profile email" />
     <!-- [END google_config] -->
-    <title>Google Sign In </title>
+    <title>Google Sign In Example</title>
 
     <!-- Material Design Theming -->
     <link
@@ -54,9 +41,6 @@ limitations under the License.
     <!-- Google Sign In -->
     <script src="https://apis.google.com/js/platform.js" async defer></script>
 
-    <!-- Import and configure the Firebase SDK -->
-    <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
-    <!-- If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
     <script src="/__/firebase/9.22.1/firebase-app-compat.js"></script>
     <script src="/__/firebase/9.22.1/firebase-auth-compat.js"></script>
     <script src="/__/firebase/init.js"></script>
@@ -64,29 +48,33 @@ limitations under the License.
     <script type="text/javascript">
       function onSignIn(googleUser) {
         console.log("Google Auth Response", googleUser);
-        // We need to register an Observer on Firebase Auth to make sure auth is initialized.
         var unsubscribe = firebase
           .auth()
           .onAuthStateChanged(function (firebaseUser) {
             unsubscribe();
-            // Check if we are already signed-in Firebase with the correct user.
             if (!isUserEqual(googleUser, firebaseUser)) {
-              // Build Firebase credential with the Google ID token.
               var credential = firebase.auth.GoogleAuthProvider.credential(
                 googleUser.getAuthResponse().id_token
               );
 
-              // Sign in with credential from the Google user.
               firebase
                 .auth()
                 .signInWithCredential(credential)
+                .then(function (result) {
+                  // This gives you a Google Access Token.
+                  var token = result.credential.accessToken;
+                  // The signed-in user info.
+                  var user = result.user;
+                  // Display user name and email
+                  document.getElementById("user-name").textContent =
+                    user.displayName;
+                  document.getElementById("user-email").textContent =
+                    user.email;
+                })
                 .catch(function (error) {
-                  // Handle Errors here.
                   var errorCode = error.code;
                   var errorMessage = error.message;
-                  // The email of the user's account used.
                   var email = error.email;
-                  // The firebase.auth.AuthCredential type that was used.
                   var credential = error.credential;
                   if (
                     errorCode ===
@@ -95,8 +83,6 @@ limitations under the License.
                     alert(
                       "You have already signed up with a different auth provider for that email."
                     );
-                    // If you are using multiple auth providers on your app you should handle linking
-                    // the user's accounts here.
                   } else {
                     console.error(error);
                   }
@@ -107,9 +93,6 @@ limitations under the License.
           });
       }
 
-      /**
-       * Check that the given Google user is equals to the given Firebase user.
-       */
       function isUserEqual(googleUser, firebaseUser) {
         if (firebaseUser) {
           var providerData = firebaseUser.providerData;
@@ -119,7 +102,6 @@ limitations under the License.
                 firebase.auth.GoogleAuthProvider.PROVIDER_ID &&
               providerData[i].uid === googleUser.getBasicProfile().getId()
             ) {
-              // We don't need to reauth the Firebase connection.
               return true;
             }
           }
@@ -127,9 +109,6 @@ limitations under the License.
         return false;
       }
 
-      /**
-       * Handle the sign out button press.
-       */
       function handleSignOut() {
         var googleAuth = gapi.auth2.getAuthInstance();
         googleAuth.signOut().then(function () {
@@ -137,11 +116,6 @@ limitations under the License.
         });
       }
 
-      /**
-       * initApp handles setting up UI event listeners and registering Firebase auth listeners:
-       *  - firebase.auth().onAuthStateChanged: This listener is called when the user is signed in or
-       *    out, and that is where we update the UI.
-       */
       function initApp() {
         // Auth state changes.
         firebase.auth().onAuthStateChanged(function (user) {
@@ -225,6 +199,8 @@ limitations under the License.
                 <span id="quickstart-sign-in-status">Unknown</span>
                 <div>Firebase auth <code>currentUser</code> object value:</div>
                 <pre><code id="quickstart-account-details">null</code></pre>
+                <div>User Name: <span id="user-name"></span></div>
+                <div>Email: <span id="user-email"></span></div>
               </div>
             </div>
           </div>
