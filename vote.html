@@ -14,7 +14,7 @@
       }
 
       .header {
-        background-color: #4caf50;
+        background-color: #4caf4fb4;
         color: #fff;
         padding: 20px;
         text-align: center;
@@ -31,14 +31,23 @@
 
       .container {
         max-width: 1200px;
-        margin: 20px auto;
         padding: 0 20px;
+      }
+      .bg {
+        min-height: 500px;
+        background-image: url(https://s.yimg.com/ny/api/res/1.2/FFL2LQ42osLaFGQanf2TMw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://media.zenfs.com/en/comingsoon_net_477/6ae14a33ba795c4e7840e8e6fcd3714b);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
       }
 
       .user-pics-container {
         display: flex;
         flex-wrap: wrap;
+        padding-top: 50px;
+
         gap: 20px;
+        background-color: #00000067;
+
         justify-content: center;
       }
 
@@ -47,7 +56,7 @@
         width: 150px;
         text-align: center;
         cursor: pointer; /* Add cursor pointer for better user interaction */
-        transition: transform 0.2s ease; /* Add smooth transition */
+        transition: transform 0.4s ease; /* Add smooth transition */
       }
 
       .user-pic img {
@@ -60,7 +69,12 @@
 
       .user-name {
         font-size: 14px;
-        color: #333;
+        color: #ffffff;
+        font-weight: 200;
+        text-shadow: #333 2px;
+        font-style: oblique;
+        background-color: #33333350;
+        border-radius: 20px;
       }
 
       .user-votes {
@@ -111,8 +125,10 @@
       </div>
     </header>
 
-    <!-- User Pics Container -->
-    <div class="container user-pics-container" id="userPics"></div>
+    <div class="bg">
+      <!-- User Pics Container -->
+      <div class="container user-pics-container" id="userPics"></div>
+    </div>
 
     <!-- Firebase scripts -->
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
