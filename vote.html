@@ -14,7 +14,7 @@
       }
 
       .header {
-        background-color: #4caf4fb4;
+        background-color: #4caf50;
         color: #fff;
         padding: 20px;
         text-align: center;
@@ -31,23 +31,14 @@
 
       .container {
         max-width: 1200px;
+        margin: 20px auto;
         padding: 0 20px;
-      }
-      .bg {
-        min-height: 500px;
-        background-image: url(https://s.yimg.com/ny/api/res/1.2/FFL2LQ42osLaFGQanf2TMw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://media.zenfs.com/en/comingsoon_net_477/6ae14a33ba795c4e7840e8e6fcd3714b);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
       }
 
       .user-pics-container {
         display: flex;
         flex-wrap: wrap;
-        padding-top: 50px;
-
         gap: 20px;
-        background-color: #00000067;
-
         justify-content: center;
       }
 
@@ -56,7 +47,7 @@
         width: 150px;
         text-align: center;
         cursor: pointer; /* Add cursor pointer for better user interaction */
-        transition: transform 0.4s ease; /* Add smooth transition */
+        transition: transform 0.2s ease; /* Add smooth transition */
       }
 
       .user-pic img {
@@ -69,12 +60,7 @@
 
       .user-name {
         font-size: 14px;
-        color: #ffffff;
-        font-weight: 200;
-        text-shadow: #333 2px;
-        font-style: oblique;
-        background-color: #33333350;
-        border-radius: 20px;
+        color: #333;
       }
 
       .user-votes {
@@ -125,16 +111,13 @@
       </div>
     </header>
 
-    <div class="bg">
-      <!-- User Pics Container -->
-      <div class="container user-pics-container" id="userPics"></div>
-    </div>
+    <!-- User Pics Container -->
+    <div class="container user-pics-container" id="userPics"></div>
 
     <!-- Firebase scripts -->
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
     <script>
-      // Firebase configuration
       // Firebase configuration
       const firebaseConfig = {
         apiKey: "AIzaSyDXSLlef9SYpaP6ZGZvieMEsdn5PvQxhJw",
@@ -181,7 +164,6 @@
           }
         });
       }
-
       // Function to add a vote for a user, with a limit of 15 votes per day
       function addVote(userId) {
         const userDiv = document.querySelector(
@@ -189,6 +171,11 @@
         );
         const currentVote = parseInt(userDiv.getAttribute("data-current-vote"));
         let totalVotes = parseInt(localStorage.getItem("totalVotes") || 0);
+
+        if (totalVotes >= 15) {
+          alert("You have reached the daily voting limit of 15 votes.");
+          return;
+        }
 
         // Check if 24 hours have passed since the last vote reset
         const lastResetTimestamp =
@@ -200,11 +187,6 @@
           totalVotes = 0; // Reset total votes
         }
 
-        if (totalVotes >= 15) {
-          alert("You have reached the daily voting limit of 15 votes.");
-          return;
-        }
-
         const userVotesElement = userDiv.querySelector(".user-votes");
         let userVotes = parseInt(userVotesElement.textContent) || 0;
         userVotes++;
@@ -213,6 +195,12 @@
 
         totalVotes++;
         localStorage.setItem("totalVotes", totalVotes);
+
+        // Update Firebase database with the new vote count
+        database.ref(`users/${userId}/userVote`).set(currentVote + 1);
+
+        // Refresh user pics data
+        displayUserPics();
 
         // Update header votes
         updateHeaderVotes();
