@@ -1,0 +1,1697 @@
+#EXTM3U x-tvg-url="https://avkb.short.gy/epg.xml.gz"
+#EXTM3U
+
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦ IN   GENERAL  ✦●✦
+http://extraott.com:80/4183813400/7514985385/187392
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/aaj.png" tvg-id="ts689" ,AAJ TAK HD
+http://extraott.com:80/4183813400/7514985385/186974
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/9xm.png" tvg-id="ts139" , 9XM HD
+http://extraott.com:80/4183813400/7514985385/378766
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/9xtash.png" tvg-id="9xtashan.in" ,9X TASHAN
+http://extraott.com:80/4183813400/7514985385/378765
+#EXTINF:-1 tvg-id="ts816" group-title="HINDI" tvg-logo="https://lo1.in/ind/cbeb.png" ,CBEEBIES
+http://extraott.com:80/4183813400/7514985385/378761
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/indt.png" tvg-id="ts104" ,INDIA TV
+http://extraott.com:80/4183813400/7514985385/378756
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/t.png" tvg-id="ts40" ,&TV HD
+http://extraott.com:80/4183813400/7514985385/378736
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/aastha.png" tvg-id="ts38" ,AASTHA HD
+http://extraott.com:80/4183813400/7514985385/400162497
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/assth.png" tvg-id="ts283" ,AASTHA BHAJAN HD
+http://extraott.com:80/4183813400/7514985385/186976
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/abnan.png" tvg-id="ts225" ,ABN ANDHRA JYOTHY HD
+http://extraott.com:80/4183813400/7514985385/186977
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/alank.png" tvg-id="ts28" ,ALANKAR HD
+http://extraott.com:80/4183813400/7514985385/186982
+#EXTINF:-1 tvg-id="ts28" group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,ALANKAR TV
+http://extraott.com:80/4183813400/7514985385/35787
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/aryfm.png" ,ARY FAMILY
+http://extraott.com:80/4183813400/7514985385/186991
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/bhart.png" tvg-id="ts291" ,BHARAT SAMACHAR HD
+http://extraott.com:80/4183813400/7514985385/187002
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/chwin.png" tvg-id="ts161" ,CHANNEL WIN
+http://extraott.com:80/4183813400/7514985385/187009
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/dy365.png" tvg-id="ts353" ,DY 365 HD
+http://extraott.com:80/4183813400/7514985385/187056
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/e24.png" tvg-id="ts224" ,E24 HD
+http://extraott.com:80/4183813400/7514985385/187057
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/arih.png" tvg-id="arihant.in" ,ARIHANT TV HD
+http://extraott.com:80/4183813400/7514985385/400162495
+#EXTINF:-1 tvg-id="ts790" group-title="HINDI" tvg-logo="https://lo1.in/ind/ekon.png" ,EK ONKAR
+http://extraott.com:80/4183813400/7514985385/187059
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/entr.png" tvg-id="ts788" ,Enterr10 Bangla
+http://extraott.com:80/4183813400/7514985385/187060
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/epic.png" tvg-id="ts126" ,EPIC HD
+http://extraott.com:80/4183813400/7514985385/187062
+#EXTINF:-1 tvg-id="ts887" group-title="HINDI" tvg-logo="https://lo1.in/ind/gurbhe.png" ,Garv Gurbani
+http://extraott.com:80/4183813400/7514985385/187082
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/havusa.png" ,HARVEST TV
+http://extraott.com:80/4183813400/7514985385/187083
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/hinddh.png" tvg-id="ts630" ,HINDU DHARMAM
+http://extraott.com:80/4183813400/7514985385/187085
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/humt.png" ,HUM TV HD
+http://extraott.com:80/4183813400/7514985385/187087
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/nep1.png" tvg-id="nepal1.in" ,NEPALI 1 TV HD
+http://extraott.com:80/4183813400/7514985385/400162499
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ibc2.png" tvg-id="ts27" ,IBC 24 HD
+http://extraott.com:80/4183813400/7514985385/187088
+#EXTINF:-1 tvg-id="ts1276" group-title="HINDI" tvg-logo="https://lo1.in/ind/invgdis.png" ,INVESTIGATION DISCOVERY HD
+http://extraott.com:80/4183813400/7514985385/187090
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/indra.png" tvg-id="ts368" ,INDRADHANU HD
+http://extraott.com:80/4183813400/7514985385/187095
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ishw.png" tvg-id="ts594" ,ISHWAR TV
+http://extraott.com:80/4183813400/7514985385/187099
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/jant.png" tvg-id="jantatv.in" ,JANTAN TV HD
+http://extraott.com:80/4183813400/7514985385/187105
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/kasth.png" tvg-id="kasthuri.in" ,KASTHURI
+http://extraott.com:80/4183813400/7514985385/187118
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/khalch.png" ,KHALSA CHANNEL HD
+http://extraott.com:80/4183813400/7514985385/187119
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" tvg-id="ts381" ,KOLKATA TV
+http://extraott.com:80/4183813400/7514985385/187122
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/mironw.png" tvg-id="ts591" ,MIRROR NOW HD
+http://extraott.com:80/4183813400/7514985385/187146
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ca/tag.png" ,TAG TV HD
+http://extraott.com:80/4183813400/7514985385/37820
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" tvg-id="ts666" ,Tata Play Theatre HD
+http://extraott.com:80/4183813400/7514985385/400281370
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/mnmv.png" tvg-id="ts210" ,MN+ HD
+http://extraott.com:80/4183813400/7514985385/187151
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/npl1.png" tvg-id="ts567" ,NEPAL 1 HD
+http://extraott.com:80/4183813400/7514985385/187162
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ot.png" tvg-id="ts419" ,OTV HD
+http://extraott.com:80/4183813400/7514985385/187189
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/china/pk.png" tvg-id="patrikatvrajasthan.in" ,PATRIKA TV RAJ HD
+http://extraott.com:80/4183813400/7514985385/187190
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/peac.png" tvg-id="ts420" ,PEACE OF MIND HD
+http://extraott.com:80/4183813400/7514985385/187192
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/protm.png" tvg-id="ts221" ,PROTIDIN TIME HD
+http://extraott.com:80/4183813400/7514985385/187203
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ramd.png" tvg-id="ts449" ,RAMDHENU HD
+http://extraott.com:80/4183813400/7514985385/187226
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/rag.png" tvg-id="ts101" ,RANG HD
+http://extraott.com:80/4183813400/7514985385/187227
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/reng.png" tvg-id="ts214" ,RENGONI TV
+http://extraott.com:80/4183813400/7514985385/187229
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/replic.png" tvg-id="ts72" ,REPUBLIC TV
+http://extraott.com:80/4183813400/7514985385/187230
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/sardr.png" ,SARDARI TV HD
+http://extraott.com:80/4183813400/7514985385/187243
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/shem.png" tvg-id="ts818" ,SHEMAROO TV
+http://extraott.com:80/4183813400/7514985385/187244
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/shbx.png" tvg-id="ts733" ,SHOWBOX
+http://extraott.com:80/4183813400/7514985385/187245
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/shub.png" tvg-id="ts458" ,SHUBH TV
+http://extraott.com:80/4183813400/7514985385/187246
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/subra.png" ,SUBRANG TV HD
+http://extraott.com:80/4183813400/7514985385/187274
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/swarex.png" tvg-id="ts577" ,SWARAJ EXPRESS SMBC HD
+http://extraott.com:80/4183813400/7514985385/187284
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/tqind.png" tvg-id="ts54" ,THE Q
+http://extraott.com:80/4183813400/7514985385/187315
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/tlcwrd.png" tvg-id="ts480" ,TLC HD
+http://extraott.com:80/4183813400/7514985385/187318
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/vedic.png" tvg-id="ts500" ,VEDIC HD
+http://extraott.com:80/4183813400/7514985385/187339
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zing.png" tvg-id="ts517" ,ZING
+http://extraott.com:80/4183813400/7514985385/187375
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/depl.png" ,DESI PLUS
+http://extraott.com:80/4183813400/7514985385/387642
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/loksa.png" tvg-id="ts213" ,Sansad TV 1
+http://extraott.com:80/4183813400/7514985385/387637
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/asmtlk.png" ,ASSAM TALKS
+http://extraott.com:80/4183813400/7514985385/387627
+#EXTINF:-1 tvg-id="ts775" group-title="HINDI" tvg-logo="https://lo1.in/ind/divya.png" ,DIVYA
+http://extraott.com:80/4183813400/7514985385/387788
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/brit.png" ,BRITASIA TV
+http://extraott.com:80/4183813400/7514985385/387776
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/eye9am.png" ,EYE 95 AMERICA (US)
+http://extraott.com:80/4183813400/7514985385/387774
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/cht1.png" ,CHANNEL T1
+http://extraott.com:80/4183813400/7514985385/387773
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/chs.png" ,CHANNEL-S HD
+http://extraott.com:80/4183813400/7514985385/387772
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/jhanj.png" ,JHANJAR HD
+http://extraott.com:80/4183813400/7514985385/387765
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/mon.png" ,MONARCH TV
+http://extraott.com:80/4183813400/7514985385/387763
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/tmz.png" ,TMZ
+http://extraott.com:80/4183813400/7514985385/387762
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/fod5.png" ,FOOD 52 HD
+http://extraott.com:80/4183813400/7514985385/387756
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/5aab.png" ,5AAB TV HD
+http://extraott.com:80/4183813400/7514985385/387753
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/5str.png" ,7STAR TV
+http://extraott.com:80/4183813400/7514985385/387752
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ns18ben.png" tvg-id="ts23" ,News18 Bangla
+http://extraott.com:80/4183813400/7514985385/387726
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/anjan.png" tvg-id="anjantv.in" ,ANJAN
+http://extraott.com:80/4183813400/7514985385/387742
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ayush.png" tvg-id="ts660" ,Ayush TV
+http://extraott.com:80/4183813400/7514985385/387741
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/chny.png" ,CHANNEL Y HD
+http://extraott.com:80/4183813400/7514985385/387737
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/etn.png" tvg-id="ts88" ,ET NOW
+http://extraott.com:80/4183813400/7514985385/387736
+#EXTINF:-1 tvg-id="ts47" group-title="HINDI" tvg-logo="https://lo1.in/ind/jonc.png" ,Jonack TV
+http://extraott.com:80/4183813400/7514985385/387730
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/khabr.png" tvg-id="khabarainabhitak.in" ,KHABRAIN ABHI TAK
+http://extraott.com:80/4183813400/7514985385/387729
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/mahamv.png" tvg-id="mahamovie.in" ,MAHA MOVIE HD
+http://extraott.com:80/4183813400/7514985385/387728
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/mh1pr.png" tvg-id="mhonenews.in" ,MH1 PRIME
+http://extraott.com:80/4183813400/7514985385/387727
+#EXTINF:-1 tvg-id="ts827" group-title="HINDI" tvg-logo="https://lo1.in/ind/sadhpl.png" ,Sadhna Plus News
+http://extraott.com:80/4183813400/7514985385/387719
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/sansk.png" tvg-id="ts43" ,SANSKAR
+http://extraott.com:80/4183813400/7514985385/387718
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/sats.png" tvg-id="ts456" ,Satsang TV
+http://extraott.com:80/4183813400/7514985385/387715
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/shemkd.png" ,SHEMAROO KIDS HD
+http://extraott.com:80/4183813400/7514985385/387713
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/vel.png" ,VELICHAM
+http://extraott.com:80/4183813400/7514985385/387710
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,DILLI AAJ TAKK
+http://extraott.com:80/4183813400/7514985385/36306
+#EXTINF:-1 tvg-id="ts375" group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,KALINGA TV
+http://extraott.com:80/4183813400/7514985385/35794
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,ODISHA TV
+http://extraott.com:80/4183813400/7514985385/35785
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,TARANG TV
+http://extraott.com:80/4183813400/7514985385/35786
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,SIDDARTH TV
+http://extraott.com:80/4183813400/7514985385/35791
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,SIDDARTH GOLD
+http://extraott.com:80/4183813400/7514985385/35792
+#EXTINF:-1 tvg-id="ts987" group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,STAR KIRAN
+http://extraott.com:80/4183813400/7514985385/35795
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,OM SHANTI
+http://extraott.com:80/4183813400/7514985385/36307
+#EXTINF:-1 tvg-id="ts51" group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,DANGAL
+http://extraott.com:80/4183813400/7514985385/36309
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,CN PLUS HD
+http://extraott.com:80/4183813400/7514985385/36310
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,DISNEY INTERNATIONAL HD
+http://extraott.com:80/4183813400/7514985385/36312
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,PARAS TV
+http://extraott.com:80/4183813400/7514985385/36318
+#EXTINF:-1 tvg-id="ts433" group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,Nick HD+
+http://extraott.com:80/4183813400/7514985385/36319
+#EXTINF:-1 tvg-id="ts406" group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,MTV HD
+http://extraott.com:80/4183813400/7514985385/36329
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,MINIPLEX HD
+http://extraott.com:80/4183813400/7514985385/36330
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,AAJ TAK TEZ
+http://extraott.com:80/4183813400/7514985385/36336
+#EXTINF:-1 group-title="HINDI" ,ATN HD HD
+http://extraott.com:80/4183813400/7514985385/38317
+#EXTINF:-1 group-title="HINDI" ,SONY ASIA HD
+http://extraott.com:80/4183813400/7514985385/38314
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" tvg-id="sonyyay.in" ,SONY YAY
+http://extraott.com:80/4183813400/7514985385/36337
+#EXTINF:-1 tvg-id="ts158" group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,SONY BBC EARTH HINDI HD
+http://extraott.com:80/4183813400/7514985385/36338
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,VH1 HD ENG
+http://extraott.com:80/4183813400/7514985385/36339
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,THE Q YOU HD ENG
+http://extraott.com:80/4183813400/7514985385/36340
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,BLOOMBERG INDIA ENG
+http://extraott.com:80/4183813400/7514985385/36342
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,DISNEY INTERNATIONAL HD ENG
+http://extraott.com:80/4183813400/7514985385/36343
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,CNBC TV18 NEWS HD ENG
+http://extraott.com:80/4183813400/7514985385/36344
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,FOX LIFE HD ENG
+http://extraott.com:80/4183813400/7514985385/36345
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,SONY BBC EARTH ENG HD
+http://extraott.com:80/4183813400/7514985385/36346
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,CVR NEWS TELEGU
+http://extraott.com:80/4183813400/7514985385/36374
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦ IN SPORT ✦●✦
+http://extraott.com:80/4183813400/7514985385/400159504
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,VT SPORTS 18 HD
+http://extraott.com:80/4183813400/7514985385/400803727
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/starsp1.png" tvg-id="ts78" ,STAR SPORTS 1 HD
+http://extraott.com:80/4183813400/7514985385/187268
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/starsp2.png" tvg-id="ts235" ,STAR SPORTS 2 HD
+http://extraott.com:80/4183813400/7514985385/378740
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/strsp3.png" tvg-id="ts664" ,STAR SPORTS 3 HD
+http://extraott.com:80/4183813400/7514985385/400159568
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/strsps1.png" tvg-id="ts246" ,STAR SPORTS SELECT 1 HD
+http://extraott.com:80/4183813400/7514985385/378739
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/strsps2.png" tvg-id="ts603" ,STAR SPORTS SELECT 2  HD
+http://extraott.com:80/4183813400/7514985385/376465
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/strsp1hnd.png" tvg-id="ts24" ,STAR SPORTS 1 HINDI HD
+http://extraott.com:80/4183813400/7514985385/400159571
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/07/Sports18_official_logo.png" ,SPORTS 18 HD
+http://extraott.com:80/4183813400/7514985385/400443872
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ddsp.png" tvg-id="ts1191" ,DD SPORTS HD
+http://extraott.com:80/4183813400/7514985385/378758
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/tensp.png" ,TEN SPORTS HD
+http://extraott.com:80/4183813400/7514985385/376442
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/snytn1.png" tvg-id="sonyten1hd.in" ,SONY TEN 1 HD
+http://extraott.com:80/4183813400/7514985385/187261
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/snytn2.png" tvg-id="sonyten2hd.in" ,SONY TEN 2 HD
+http://extraott.com:80/4183813400/7514985385/187262
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/snytn3.png" tvg-id="sonyten3hd.in" ,SONY TEN 3 HD
+http://extraott.com:80/4183813400/7514985385/378745
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/snyten4.png" ,SONY TEN 4 HD
+http://extraott.com:80/4183813400/7514985385/400375287
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ptsp.png" ,PTV SPORTS HD
+http://extraott.com:80/4183813400/7514985385/17853
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ptsp.png" ,PTV SPORTS RAW HD
+http://extraott.com:80/4183813400/7514985385/17819
+#EXTINF:-1 tvg-id="ts693" group-title="HINDI" tvg-logo="https://lo1.in/ind/eursp.png" ,EUROSPORT
+http://extraott.com:80/4183813400/7514985385/400159572
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,JIO EVENTS HD
+http://extraott.com:80/4183813400/7514985385/400803735
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,WILLOW CRICKET HD
+http://extraott.com:80/4183813400/7514985385/36300
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,Hub Sports 1
+http://extraott.com:80/4183813400/7514985385/36305
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,Hub Sports 2
+http://extraott.com:80/4183813400/7514985385/36304
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,Hub Sports 3
+http://extraott.com:80/4183813400/7514985385/36303
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,Hub Sports 4
+http://extraott.com:80/4183813400/7514985385/36302
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,Hub Sports 5
+http://extraott.com:80/4183813400/7514985385/36301
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦ IN SONY CHANNELS ✦●✦
+http://extraott.com:80/4183813400/7514985385/400232360
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/sny.png" tvg-id="sony.in" ,SONY HD
+http://extraott.com:80/4183813400/7514985385/376266
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/snysb.png" tvg-id="ts48" ,SONY SAB HD
+http://extraott.com:80/4183813400/7514985385/400159477
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/snysb.png" tvg-id="sonysab.in" ,SONY SAB  (UK)
+http://extraott.com:80/4183813400/7514985385/400232358
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/uk/sony.png" tvg-id="sonyhd.in" ,SONY TV HD (UK)
+http://extraott.com:80/4183813400/7514985385/400232359
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/snyentr.png" ,SONY ENTERTAINMENT HD
+http://extraott.com:80/4183813400/7514985385/400220466
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/uk/snyac.png" ,SONY ACTION  (UK)
+http://extraott.com:80/4183813400/7514985385/400232356
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/uk/snych.png" ,SONY CHANNEL  (UK)
+http://extraott.com:80/4183813400/7514985385/400232349
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/snymvac1.png" ,SONY MOVIES ACTION +1
+http://extraott.com:80/4183813400/7514985385/187256
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/snymx.png" tvg-id="ts80" ,SONY MAX HD
+http://extraott.com:80/4183813400/7514985385/376264
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/uk/snymx.png" tvg-id="sonymaxhd.in" ,SONY MAX HD (UK)
+http://extraott.com:80/4183813400/7514985385/400232355
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/snymx2.png" tvg-id="ts120" ,SONY MAX 2 HD
+http://extraott.com:80/4183813400/7514985385/376265
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/snymx2.png" tvg-id="sonymax2.in" ,SONY MAX 2  (UK)
+http://extraott.com:80/4183813400/7514985385/400232354
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/uk/sonymo.png" ,SONY MOVIES (UK)
+http://extraott.com:80/4183813400/7514985385/400232353
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/uk/snyac.png" ,SONY MOVIES + 1 HD (UK)
+http://extraott.com:80/4183813400/7514985385/400232352
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/uk/snyac.png" ,SONY MOVIES ACTION HD (UK)
+http://extraott.com:80/4183813400/7514985385/400232351
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/uk/snyac.png" ,SONY MOVIES ACTION +1 HD (UK)
+http://extraott.com:80/4183813400/7514985385/400232350
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/snypa.png" tvg-id="ts554" ,SONY PAL HD
+http://extraott.com:80/4183813400/7514985385/187260
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/snypix.png" tvg-id="ts32" ,SONY PIX HD
+http://extraott.com:80/4183813400/7514985385/376263
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/sny6.png" tvg-id="sonysixhd.in" ,SONY SIX HD
+http://extraott.com:80/4183813400/7514985385/378746
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/snywh.png" tvg-id="ts56" ,SONY WAH
+http://extraott.com:80/4183813400/7514985385/378744
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦  IN  DOCUMENTARY ✦●✦
+http://extraott.com:80/4183813400/7514985385/187603
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/exp.png" ,& XPLORE HD
+http://extraott.com:80/4183813400/7514985385/186969
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/anmpl.png" tvg-id="ts130" ,ANIMAL PLANET HD
+http://extraott.com:80/4183813400/7514985385/186960
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/anmpl.png" tvg-id="animalplanethd.in" ,ANIMAL PLANET ENG HD
+http://extraott.com:80/4183813400/7514985385/186986
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/distur.png" tvg-id="ts228" ,DISCOVERY TURBO HD
+http://extraott.com:80/4183813400/7514985385/378757
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/dis.png" tvg-id="discoveryhd.in" ,DISCOVERY  WORLD HD
+http://extraott.com:80/4183813400/7514985385/186963
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/dissci.png" tvg-id="ts113" ,DISCOVERY SCIENCE HD
+http://extraott.com:80/4183813400/7514985385/186965
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/dsyeng.png" ,DISCOVERY ENGLISH HD
+http://extraott.com:80/4183813400/7514985385/400159495
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/diswd.png" ,DISCOVERY WORLD HD
+http://extraott.com:80/4183813400/7514985385/400159493
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/fash.png" ,FASHION TV HD
+http://extraott.com:80/4183813400/7514985385/187068
+#EXTINF:-1 tvg-id="ts172" group-title="HINDI" tvg-logo="https://lo1.in/ind/histeng.png" ,HISTORY TV18 HINDI HD
+http://extraott.com:80/4183813400/7514985385/400375294
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/histeng.png" ,HISTORY TV18 ENG HD
+http://extraott.com:80/4183813400/7514985385/400375563
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/fodind.png" tvg-id="foodfood.in" ,FOOD FOOD INDIA HD
+http://extraott.com:80/4183813400/7514985385/400280893
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/geot.png" ,GEO TV HD
+http://extraott.com:80/4183813400/7514985385/187075
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/geosu.png" ,GEO SUPER HD
+http://extraott.com:80/4183813400/7514985385/376443
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/livfod.png" tvg-id="livingfoodzhd.in" ,LIVING FOODZ HD
+http://extraott.com:80/4183813400/7514985385/400159426
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ntge.png" tvg-id="natgeowild.in" ,NAT GEO HD
+http://extraott.com:80/4183813400/7514985385/186967
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ntgew.png" tvg-id="ts413" ,NAT GEO WILD HD
+http://extraott.com:80/4183813400/7514985385/400159485
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ntge.png" ,NAT GEO HD ENG
+http://extraott.com:80/4183813400/7514985385/400159719
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ntgew.png" tvg-id="natgeowild.in" ,NAT GEO WILD ENG HD
+http://extraott.com:80/4183813400/7514985385/400159486
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ndgdtm.png" tvg-id="ts136" ,GOOD TIMES HD
+http://extraott.com:80/4183813400/7514985385/187077
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/norealv.png" tvg-id="ts417" ,NORTH EAST LIVE HD
+http://extraott.com:80/4183813400/7514985385/187186
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦  IN  KIDS ✦●✦
+http://extraott.com:80/4183813400/7514985385/187596
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/bby.png" tvg-id="babytvhd.in" ,BABY TV HD
+http://extraott.com:80/4183813400/7514985385/400159447
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/crtnet.png" tvg-id="cartoonnetworkhd.in" ,CARTOON NETWORK ENG HD
+http://extraott.com:80/4183813400/7514985385/17822
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/crtnet.png" tvg-id="ts238" ,CARTOON NETWORK HD
+http://extraott.com:80/4183813400/7514985385/400159500
+#EXTINF:-1 tvg-id="ts681" group-title="HINDI" tvg-logo="https://lo1.in/ind/crtnet.png" ,CARTOON NETWORK HD+
+http://extraott.com:80/4183813400/7514985385/400159721
+#EXTINF:-1 tvg-id="ts238" group-title="HINDI" tvg-logo="https://lo1.in/ind/crtnet.png" ,CARTOON NETWORK
+http://extraott.com:80/4183813400/7514985385/75417
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/diskd.png" tvg-id="ts119" ,DISCOVERY KIDS HD
+http://extraott.com:80/4183813400/7514985385/187049
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/dsy.png" tvg-id="ts114" ,DISNEY HD
+http://extraott.com:80/4183813400/7514985385/187052
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/dsyj.png" tvg-id="ts144" ,DISNEY JUNIOR HD
+http://extraott.com:80/4183813400/7514985385/187053
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/nick.png" tvg-id="ts433" ,NICK HD+
+http://extraott.com:80/4183813400/7514985385/400159483
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/nick.png" ,NICK+ HD HINDI
+http://extraott.com:80/4183813400/7514985385/400159717
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/nickj.png" tvg-id="nickjrin.in" ,NICK JUNIOR HD
+http://extraott.com:80/4183813400/7514985385/187184
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/nickj.png" ,NICK JUNIOR HD ENG
+http://extraott.com:80/4183813400/7514985385/400159718
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/nickeng.png" tvg-id="nickhdplus.in" ,NICK+ HD ENGLISH HD
+http://extraott.com:80/4183813400/7514985385/400159484
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/nicksnc.png" tvg-id="sonicnickelodeon.in" ,NICK SONIC HD
+http://extraott.com:80/4183813400/7514985385/400159482
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦ IN MUSIC ✦●✦
+http://extraott.com:80/4183813400/7514985385/400159506
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/7sms.png" ,7S MUSIC
+http://extraott.com:80/4183813400/7514985385/186959
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/9xjlw.png" tvg-id="ts39" ,9X JALWA HD
+http://extraott.com:80/4183813400/7514985385/400159451
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/9xms.png" ,9X MUSIC HD
+http://extraott.com:80/4183813400/7514985385/400159450
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/b4ms.png" tvg-id="ts9" ,B4U MUSIC HD
+http://extraott.com:80/4183813400/7514985385/186962
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/nkms.png" ,MK MUSIC
+http://extraott.com:80/4183813400/7514985385/187147
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/mtv.png" tvg-id="ts406" ,MTV HD
+http://extraott.com:80/4183813400/7514985385/400159487
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/mtvhd.png" tvg-id="ts406" ,MTV HD
+http://extraott.com:80/4183813400/7514985385/187154
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/mtvbea.png" tvg-id="ts405" ,MTV BEATS HD
+http://extraott.com:80/4183813400/7514985385/187153
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/msind.png" tvg-id="musicindia.in" ,MUSIC INDIA
+http://extraott.com:80/4183813400/7514985385/187157
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/masti.png" tvg-id="ts17" ,MASTIII HD
+http://extraott.com:80/4183813400/7514985385/400159448
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/jhanjms.png" ,JHANJAR MUSIC
+http://extraott.com:80/4183813400/7514985385/387731
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/pubms.png" tvg-id="ts424" ,PUBLIC MUSIC HD
+http://extraott.com:80/4183813400/7514985385/187208
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/utvbin.png" tvg-id="ts142" ,UTV BINDASS HD
+http://extraott.com:80/4183813400/7514985385/187334
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zom.png" tvg-id="zoom.in" ,ZOOM US HD
+http://extraott.com:80/4183813400/7514985385/400281747
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zom.png" tvg-id="zoom.in" ,ZOOM INDIA HD
+http://extraott.com:80/4183813400/7514985385/187376
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zom.png" tvg-id="zoom.in" ,ZOOM UK HD
+http://extraott.com:80/4183813400/7514985385/400281778
+#EXTINF:-1 tvg-id="ts50" group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,TARANG MUSIC
+http://extraott.com:80/4183813400/7514985385/35788
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦  IN  MOVIES ✦●✦
+http://extraott.com:80/4183813400/7514985385/187597
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/stplay/splus.png" tvg-id="ts8" ,STAR PLUS HD
+http://extraott.com:80/4183813400/7514985385/378741
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/strglds.png" tvg-id="ts595" ,STAR GOLD SELECT HD
+http://extraott.com:80/4183813400/7514985385/376261
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/stplay/sgold.png" tvg-id="ts632" ,STAR GOLD HD
+http://extraott.com:80/4183813400/7514985385/376262
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/strgld.2png" tvg-id="ts1072" ,STAR GOLD 2 HD
+http://extraott.com:80/4183813400/7514985385/187265
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/strmvse.png" tvg-id="ts593" ,STAR MOVIES SELECT HD
+http://extraott.com:80/4183813400/7514985385/387767
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/strmvs.png" tvg-id="ts560" ,STAR MOVIES HD
+http://extraott.com:80/4183813400/7514985385/187267
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/strumv.png" tvg-id="ts470" ,STAR UTSAV MOVIES HD
+http://extraott.com:80/4183813400/7514985385/187271
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/strut.png" tvg-id="ts551" ,STAR UTSAV
+http://extraott.com:80/4183813400/7514985385/376260
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/clst.png" tvg-id="ts52" ,COLORS HD
+http://extraott.com:80/4183813400/7514985385/187027
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/colrind.png" tvg-id="ts187" ,COLORS INFINITY HD
+http://extraott.com:80/4183813400/7514985385/378760
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/clsu.png" tvg-id="ts533" ,COLORS SUPER HD
+http://extraott.com:80/4183813400/7514985385/187024
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/colcin.png" tvg-id="ts61" ,COLORS CINEPLEX HD
+http://extraott.com:80/4183813400/7514985385/376277
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/colcin.png" tvg-id="ts53" ,COLORS CINEPLEX
+http://extraott.com:80/4183813400/7514985385/400159498
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/clrsod.png" ,COLORS ODIYA
+http://extraott.com:80/4183813400/7514985385/400159496
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/rishclr.png" tvg-id="ts438" ,COLORS RISHTEY HD
+http://extraott.com:80/4183813400/7514985385/187231
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/uk/clrst.png" tvg-id="colorsrishtey.in" ,COLORS RISHTEY UK
+http://extraott.com:80/4183813400/7514985385/400280885
+#EXTINF:-1 tvg-id="ts543" group-title="HINDI" tvg-logo="https://lo1.in/ind/colrsod.png" ,COLORS
+http://extraott.com:80/4183813400/7514985385/400375136
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/prat.png" ,PRATHANA TV
+http://extraott.com:80/4183813400/7514985385/400375134
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/strbh.png" tvg-id="ts244" ,STAR BHARAT HD
+http://extraott.com:80/4183813400/7514985385/400159476
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/MALAY/bl1.png" ,ASTRO BOX OFFICE BOLLYONE HD
+http://extraott.com:80/4183813400/7514985385/400280869
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/awakde.png" ,AWAKENING DEVOTIONAL HD
+http://extraott.com:80/4183813400/7514985385/400159456
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/mbc/b4uaflam.png" ,B4U AFLAM ARAB HD
+http://extraott.com:80/4183813400/7514985385/400281172
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/b4uk.png" tvg-id="ts730" ,B4U KADAK HD
+http://extraott.com:80/4183813400/7514985385/400159463
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/b4umvs.png" tvg-id="b4umovies.in" ,B4U MOVIES UK
+http://extraott.com:80/4183813400/7514985385/400281171
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/b4umv.png" tvg-id="ts7" ,B4U MOVIES
+http://extraott.com:80/4183813400/7514985385/376278
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/mbc/b4uplus.png" ,B4U PLUS ARAB HD
+http://extraott.com:80/4183813400/7514985385/400281173
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/bbcer.png" tvg-id="ts158" , SONY BBC EARTH HINDI HD
+http://extraott.com:80/4183813400/7514985385/186998
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/bflmx.png" tvg-id="bflixmovies.in" ,BFLIX MOVIES HD
+http://extraott.com:80/4183813400/7514985385/186999
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/biggan.png" tvg-id="bigganga.in" ,GANGA HD
+http://extraott.com:80/4183813400/7514985385/376314
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/cinv.png" ,CINE VOICE HD
+http://extraott.com:80/4183813400/7514985385/187011
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/daban.png" tvg-id="dabanggtv.in" ,DABANGG HD
+http://extraott.com:80/4183813400/7514985385/400281177
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/mbc/mbcbolly.png" ,MBC BOLLYWOOD ARAB HD
+http://extraott.com:80/4183813400/7514985385/38200
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ddbah.png" tvg-id="ts316" ,DD BHARATI HD
+http://extraott.com:80/4183813400/7514985385/187029
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/bih.png" tvg-id="zeebiharjharkhand.in" ,DD BIHAR JHARKHAND HD
+http://extraott.com:80/4183813400/7514985385/187353
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ddbih.png" tvg-id="ts317" ,DD BIHAR HD
+http://extraott.com:80/4183813400/7514985385/187030
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ddkas.png" tvg-id="ts325" ,DD KASHIR HD
+http://extraott.com:80/4183813400/7514985385/187032
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ddmad.png" tvg-id="ts330" ,DD MADHYA PRADESH HD
+http://extraott.com:80/4183813400/7514985385/187033
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ddnat.png" tvg-id="ts1218" ,DD NATIONAL HD
+http://extraott.com:80/4183813400/7514985385/187034
+#EXTINF:-1 tvg-id="ts331" group-title="HINDI" tvg-logo="https://lo1.in/ind/ddnor.png" ,DD NORTH EAST HD
+http://extraott.com:80/4183813400/7514985385/187035
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ddod.png" ,DD ODIYA HD
+http://extraott.com:80/4183813400/7514985385/187036
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ddraj.png" tvg-id="ts332" ,DD RAJASTHAN HD
+http://extraott.com:80/4183813400/7514985385/187039
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ddut.png" tvg-id="ts339" ,DD UTTAR PRADESH HD
+http://extraott.com:80/4183813400/7514985385/187042
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ddyad.png" tvg-id="ts548" ,DD YADAGIRI HD
+http://extraott.com:80/4183813400/7514985385/187043
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ddcha.png" tvg-id="ts321" ,DD CHANDANA HD
+http://extraott.com:80/4183813400/7514985385/400159421
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,DD BHARTI
+http://extraott.com:80/4183813400/7514985385/36331
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,DD MP
+http://extraott.com:80/4183813400/7514985385/36332
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,DD UP
+http://extraott.com:80/4183813400/7514985385/36333
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/dancac.png" ,DANCE ACTIVE HD
+http://extraott.com:80/4183813400/7514985385/400375293
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/evclac.png" ,EVERGREEN CLASSIC ACTIVE
+http://extraott.com:80/4183813400/7514985385/400375292
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/abzmv.png" ,ABZY MOVIES
+http://extraott.com:80/4183813400/7514985385/400375291
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/cineac.png" ,CINE ACTIVE
+http://extraott.com:80/4183813400/7514985385/400375290
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/enter10mv.png" ,ENTERR10 MOVIES
+http://extraott.com:80/4183813400/7514985385/400375289
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/shorac.png" ,SHORT TV ACTIVE
+http://extraott.com:80/4183813400/7514985385/400375285
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/cokinac.png" ,COOKING ACTIVE
+http://extraott.com:80/4183813400/7514985385/400375283
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/dhin.png" tvg-id="dillagitv.in" ,DILLAGI TV
+http://extraott.com:80/4183813400/7514985385/187047
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/etvabh.png" tvg-id="ts358" ,ETV ABHIRUCHI
+http://extraott.com:80/4183813400/7514985385/187063
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/etva.png" tvg-id="ts146" ,ETV ANDHRA PRADESH HD
+http://extraott.com:80/4183813400/7514985385/187064
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/etvpl.png" tvg-id="ts1342" ,ETV PLUS HD
+http://extraott.com:80/4183813400/7514985385/187065
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/etvte.png" tvg-id="etvtelengana.in" ,ETV TELENGANA HD
+http://extraott.com:80/4183813400/7514985385/187066
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/etvlf.png" tvg-id="ts268" ,ETV LIFE HD
+http://extraott.com:80/4183813400/7514985385/400159466
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/hbo.png" tvg-id="hbo.in" ,HBO HD
+http://extraott.com:80/4183813400/7514985385/400159492
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/harek.png" ,HAREKRSNA HD
+http://extraott.com:80/4183813400/7514985385/400159429
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/krishvdev.png" ,KRISHNA VANI DEVOTIONAL HD
+http://extraott.com:80/4183813400/7514985385/400159457
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/manga.png" ,MANGALAM TV
+http://extraott.com:80/4183813400/7514985385/187136
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/mvns.png" tvg-id="ts173" ,MOVIES NOW
+http://extraott.com:80/4183813400/7514985385/376271
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/mvac.png" ,MOVIES ACTIVE HD
+http://extraott.com:80/4183813400/7514985385/376272
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/mnx.png" tvg-id="ts599" ,MNX HD
+http://extraott.com:80/4183813400/7514985385/400159490
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/sadht.png" tvg-id="sadhanatv.in" ,SADHNA TV DEVOTIONAL HD
+http://extraott.com:80/4183813400/7514985385/378750
+#EXTINF:-1 tvg-id="ts127" group-title="HINDI" tvg-logo="https://lo1.in/ind/sonc.png" ,SONIC HD
+http://extraott.com:80/4183813400/7514985385/400159478
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/pog.png" tvg-id="pogo.in" ,POGO KIDS HD
+http://extraott.com:80/4183813400/7514985385/400159481
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/pog.png" ,POGO HD ENG
+http://extraott.com:80/4183813400/7514985385/400159716
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/rmdnw.png" tvg-id="ts174" ,ROMEDY NOW HD
+http://extraott.com:80/4183813400/7514985385/400159480
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/utvmv.png" tvg-id="utvmovies.in" ,UTV MOVIES HD
+http://extraott.com:80/4183813400/7514985385/187335
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/atac.png" tvg-id="utvaction.in" ,UTV ACTION HD
+http://extraott.com:80/4183813400/7514985385/400159473
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/utv.png" tvg-id="ts1388" ,UTV HD
+http://extraott.com:80/4183813400/7514985385/400159472
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/pict.png" tvg-id="ts267" ,&PICTURES HD
+http://extraott.com:80/4183813400/7514985385/376275
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/pict.png" tvg-id="ts148" ,&PICTURES
+http://extraott.com:80/4183813400/7514985385/400159417
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/priv.png" tvg-id="andprivehd.in" ,&PRIVÉ HD
+http://extraott.com:80/4183813400/7514985385/387755
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flix.png" tvg-id="andflixhd.in" ,& FLIX HD
+http://extraott.com:80/4183813400/7514985385/376276
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/wowcn.png" tvg-id="ts276" ,WOW CINEMA ONE HD
+http://extraott.com:80/4183813400/7514985385/187348
+#EXTINF:-1 tvg-id="ts121" group-title="HINDI" tvg-logo="https://lo1.in/ind/tatskyfit.png" ,TATA PLAY FITNESS
+http://extraott.com:80/4183813400/7514985385/400375222
+#EXTINF:-1 tvg-id="ts618" group-title="HINDI" tvg-logo="https://lo1.in/ind/tatskybiz.png" ,TATA PLAY BEAUTY
+http://extraott.com:80/4183813400/7514985385/400375221
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/tatskybiz.png" ,TATA PLAY SHOW BIZZ / BEAUTY
+http://extraott.com:80/4183813400/7514985385/400375220
+#EXTINF:-1 tvg-id="ts627" group-title="HINDI" tvg-logo="https://lo1.in/ind/tatskyllj.png" ,TATA PLAY FUN LEARN JUNIOR
+http://extraott.com:80/4183813400/7514985385/400375219
+#EXTINF:-1 tvg-id="ts626" group-title="HINDI" tvg-logo="https://lo1.in/ind/tatskylr.png" ,TATA PLAY FUN LEARN PRESCHOOL
+http://extraott.com:80/4183813400/7514985385/400375218
+#EXTINF:-1 tvg-id="ts783" group-title="HINDI" tvg-logo="https://lo1.in/ind/tatskysen.png" ,TATA PLAY SENIORS HD
+http://extraott.com:80/4183813400/7514985385/400375217
+#EXTINF:-1 tvg-id="ts789" group-title="HINDI" tvg-logo="https://lo1.in/ind/tatskyhld.png" ,TATA PLAY HOLLYWOOD LOCAL
+http://extraott.com:80/4183813400/7514985385/400375216
+#EXTINF:-1 tvg-id="ts808" group-title="HINDI" tvg-logo="https://lo1.in/ind/tatskyht.png" ,TATA PLAY HITS HD
+http://extraott.com:80/4183813400/7514985385/400375215
+#EXTINF:-1 tvg-id="ts71" group-title="HINDI" tvg-logo="https://lo1.in/ind/tatskyeng.png" ,TATA PLAY ENGLISH IN HINDI
+http://extraott.com:80/4183813400/7514985385/400375214
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/tatskyacg.png" ,TATA PLAY ACTING ADDA
+http://extraott.com:80/4183813400/7514985385/400375213
+#EXTINF:-1 tvg-id="ts95" group-title="HINDI" tvg-logo="https://lo1.in/ind/tatskyjav.png" ,TATA PLAY JAVED AKHTAR
+http://extraott.com:80/4183813400/7514985385/400375212
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/tatskyman.png" ,TATA PLAY MANAGER
+http://extraott.com:80/4183813400/7514985385/400375211
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/tatskyshor.png" ,TATA PLAY SHORTS TV
+http://extraott.com:80/4183813400/7514985385/400375210
+#EXTINF:-1 tvg-id="ts167" group-title="HINDI" tvg-logo="https://lo1.in/ind/tatskydic.png" ,TATA PLAY VEDIC MATHS
+http://extraott.com:80/4183813400/7514985385/400375209
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/club.png" ,CLUBBING TV HD
+http://extraott.com:80/4183813400/7514985385/400375208
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/kbo.png" ,KBO HD
+http://extraott.com:80/4183813400/7514985385/400375206
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,SOHAM TV
+http://extraott.com:80/4183813400/7514985385/36317
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,BINDAS MOVIES
+http://extraott.com:80/4183813400/7514985385/36335
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/acvupl.png" ,ACV UTSAV PLUS
+http://extraott.com:80/4183813400/7514985385/387745
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/acvut.png" ,ACV UTSAV
+http://extraott.com:80/4183813400/7514985385/387746
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/acvjk.png" ,ACV JUKEBOX
+http://extraott.com:80/4183813400/7514985385/387748
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/acv.png" ,ACV
+http://extraott.com:80/4183813400/7514985385/387749
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,TATA PLAY BOLLYWOOD HD
+http://extraott.com:80/4183813400/7514985385/36311
+#EXTINF:-1 tvg-id="ts319" group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,TATA PLAY BOLLYWOOD PREMIERE HD
+http://extraott.com:80/4183813400/7514985385/36316
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,COMEDY ACTIVE
+http://extraott.com:80/4183813400/7514985385/36334
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,COMEDY CENTRAL HD ENG
+http://extraott.com:80/4183813400/7514985385/36341
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/shemblpr.png" ,SHEMAROO BOLLYWOOD PREMIER
+http://extraott.com:80/4183813400/7514985385/387623
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦   IN NEWS  ✦●✦
+http://extraott.com:80/4183813400/7514985385/187682
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/abpns.png" tvg-id="ts177" ,ABP NEWS HD
+http://extraott.com:80/4183813400/7514985385/378764
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ns24.png" tvg-id="ts209" ,NEWS 24 HD
+http://extraott.com:80/4183813400/7514985385/378753
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/cnbcp.png" ,CNBC PRIME TV18 HD
+http://extraott.com:80/4183813400/7514985385/400159499
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/cnbc.png" tvg-id="ts304" ,CNBC TV18 HD
+http://extraott.com:80/4183813400/7514985385/187016
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/nsx.png" tvg-id="newsx.in" ,NEWS X HD
+http://extraott.com:80/4183813400/7514985385/400162498
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/tmnw.png" tvg-id="ts90" ,TIMES NOW HD
+http://extraott.com:80/4183813400/7514985385/187316
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/chnsas.png" tvg-id="ts157" ,CHANNEL NEWS ASIA HD
+http://extraott.com:80/4183813400/7514985385/187008
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/janns.png" tvg-id="jantantratv.in" ,JANTANTRA NEWS HD
+http://extraott.com:80/4183813400/7514985385/400162496
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/dbindns.png" tvg-id="ts1219" ,DD INDIA HD
+http://extraott.com:80/4183813400/7514985385/400162494
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/dbkisns.png" tvg-id="ts326" ,DD KISAN HD
+http://extraott.com:80/4183813400/7514985385/400162493
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/loksa.png" ,LOKSABHA NEWS HD
+http://extraott.com:80/4183813400/7514985385/400162489
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/dbrajns.png" ,DD RAJYA SABHA NEWS HD
+http://extraott.com:80/4183813400/7514985385/400162488
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/bbcwns.png" tvg-id="ts188" ,BBC WORLD NEWS HD
+http://extraott.com:80/4183813400/7514985385/378762
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/winns.png" tvg-id="wion.in" ,WION NEWS HD
+http://extraott.com:80/4183813400/7514985385/187347
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/dwnew.png" tvg-id="dw.in" ,DW NEWS HD
+http://extraott.com:80/4183813400/7514985385/187055
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/fasns.png" ,FASTWAY NEWS HD
+http://extraott.com:80/4183813400/7514985385/387735
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/cnn.png" tvg-id="cnnintl.in" ,CNN HD
+http://extraott.com:80/4183813400/7514985385/187017
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/cnnint.png" ,CNN INTL HD
+http://extraott.com:80/4183813400/7514985385/400375295
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/cnnns18.png" tvg-id="cnnnews18.in" ,CNN NEWS 18 HD
+http://extraott.com:80/4183813400/7514985385/187018
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/geons.png" ,GEO NEWS
+http://extraott.com:80/4183813400/7514985385/187074
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/indtd.png" tvg-id="ts1" ,INDIA TODAY HD
+http://extraott.com:80/4183813400/7514985385/387640
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/digh7ns.png" tvg-id="dighvijaynews.in" ,DIGHVIJAY 24X7 NEWS
+http://extraott.com:80/4183813400/7514985385/187046
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/gulns.png" tvg-id="ts365" ,GULISTAN NEWS HD
+http://extraott.com:80/4183813400/7514985385/187081
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/indins.png" tvg-id="ts366" ,INDIA NEWS PUNJAB HD
+http://extraott.com:80/4183813400/7514985385/187093
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/kanns.png" tvg-id="ts376" ,KANAK NEWS HD
+http://extraott.com:80/4183813400/7514985385/187116
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/mh1.png" tvg-id="ts399" ,MH ONE HD
+http://extraott.com:80/4183813400/7514985385/187143
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/mh1shr.png" tvg-id="ts397" ,MH ONE SHRADDHA HD
+http://extraott.com:80/4183813400/7514985385/187144
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/24ns.png" ,TWENTY FOUR NEWS
+http://extraott.com:80/4183813400/7514985385/387630
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/skyns.png" ,SKY NEWS
+http://extraott.com:80/4183813400/7514985385/387771
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/akdcalns.png" tvg-id="calcuttanews.in" ,AKD CALCUTTA NEWS
+http://extraott.com:80/4183813400/7514985385/387744
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ndind.png" tvg-id="ts179" ,NDTV INDIA HD
+http://extraott.com:80/4183813400/7514985385/378754
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ndns2.png" ,NDTV NEWS 24 HD
+http://extraott.com:80/4183813400/7514985385/187160
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ndpr.png" tvg-id="ndtvprofit-prime.in" ,NDTV PROFIT HD
+http://extraott.com:80/4183813400/7514985385/187161
+#EXTINF:-1 tvg-id="ts183" group-title="HINDI" tvg-logo="https://lo1.in/ind/indins.png" ,INDIA NEWS
+http://extraott.com:80/4183813400/7514985385/400375132
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/indins.png" ,INDIA NEWS MP CH HD
+http://extraott.com:80/4183813400/7514985385/400375131
+#EXTINF:-1 tvg-id="ts14" group-title="HINDI" tvg-logo="https://lo1.in/ind/indnssr.png" ,INDIA NEWS RAJASTHAN
+http://extraott.com:80/4183813400/7514985385/400375130
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/indins.png" ,INDIA NEWS UP
+http://extraott.com:80/4183813400/7514985385/400375129
+#EXTINF:-1 tvg-id="ts13" group-title="HINDI" tvg-logo="https://lo1.in/ind/indnss.png" ,INDIA NEWS HARYANA HD
+http://extraott.com:80/4183813400/7514985385/400375128
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeensmp.png" ,ZEE NEWS MP/CHATTISGARH HD
+http://extraott.com:80/4183813400/7514985385/400375127
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/austdy.png" ,AUSTRALIA TODAY HD
+http://extraott.com:80/4183813400/7514985385/400375126
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/sans.png" ,SANSAD TV HD
+http://extraott.com:80/4183813400/7514985385/400375125
+#EXTINF:-1 tvg-id="ts190" group-title="HINDI" tvg-logo="https://lo1.in/ind/jzr.png" ,AL JAZEERA HD
+http://extraott.com:80/4183813400/7514985385/400375124
+#EXTINF:-1 tvg-id="ts338" group-title="HINDI" tvg-logo="https://lo1.in/ind/ddurd.png" ,DD URDU
+http://extraott.com:80/4183813400/7514985385/400375123
+#EXTINF:-1 tvg-id="ts415" group-title="HINDI" tvg-logo="https://lo1.in/ind/ns11bh.png" ,NEWS 11 BHARAT
+http://extraott.com:80/4183813400/7514985385/400375122
+#EXTINF:-1 tvg-id="ts831" group-title="HINDI" tvg-logo="https://lo1.in/ind/nsind27.png" ,NEWS INDIA 24x7 HD
+http://extraott.com:80/4183813400/7514985385/400375121
+#EXTINF:-1 tvg-id="ts286" group-title="HINDI" tvg-logo="https://lo1.in/ind/apnns.png" ,APN NEWS
+http://extraott.com:80/4183813400/7514985385/400375120
+#EXTINF:-1 tvg-id="ts838" group-title="HINDI" tvg-logo="https://lo1.in/ind/kashns.png" ,KASHISH NEWS
+http://extraott.com:80/4183813400/7514985385/400375119
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,PRAMEYA NEWS 7
+http://extraott.com:80/4183813400/7514985385/35789
+#EXTINF:-1 tvg-id="ts907" group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,ARGUS NEWS
+http://extraott.com:80/4183813400/7514985385/35790
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/samay.png" ,SAMAY RAJASTHAN
+http://extraott.com:80/4183813400/7514985385/400375118
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/prns.png" ,PRIME NEWS HD
+http://extraott.com:80/4183813400/7514985385/400375117
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/repb.png" ,REPUBLIC TV HD
+http://extraott.com:80/4183813400/7514985385/400375116
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/eurns.png" ,EURO NEWS HD
+http://extraott.com:80/4183813400/7514985385/400375114
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ns18ur.png" ,NEWS 18 URDU HD
+http://extraott.com:80/4183813400/7514985385/400375115
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ns18cha.png" tvg-id="news18mpchhattisgarh.in" ,NEWS 18 CHHATTISGARH
+http://extraott.com:80/4183813400/7514985385/387725
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ns18od.png" tvg-id="news18odia.in" ,NEWS 18 ODIA
+http://extraott.com:80/4183813400/7514985385/387722
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ns18.png" tvg-id="news18india.in" ,NEWS 18 HD
+http://extraott.com:80/4183813400/7514985385/187163
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ns18up.png" tvg-id="news18upuk.in" ,NEWS 18 UP TV HD
+http://extraott.com:80/4183813400/7514985385/187167
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/nslv.png" tvg-id="ts226" ,NEWS LIVE HD
+http://extraott.com:80/4183813400/7514985385/187168
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/nsnat.png" tvg-id="ts36" ,NEWS NATION HD
+http://extraott.com:80/4183813400/7514985385/187169
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/nsstm.png" tvg-id="ts643" ,NEWS STATE MP CG
+http://extraott.com:80/4183813400/7514985385/187170
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/nsstup.png" tvg-id="indianewsupuk.in" ,NEWS STATE UP UK
+http://extraott.com:80/4183813400/7514985385/187171
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ns18as.png" tvg-id="news18assamne.in" ,NEWS 18 ASSAM
+http://extraott.com:80/4183813400/7514985385/187172
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ns18jh.png" tvg-id="news18biharjharkhand.in" ,NEWS 18 JHARKHAND
+http://extraott.com:80/4183813400/7514985385/187173
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ns18raj.png" ,NEWS 18 RAJASTHAN
+http://extraott.com:80/4183813400/7514985385/187179
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ns18utrp.png" ,NEWS 18 UTTAR PRADESH UTTARAKHAND
+http://extraott.com:80/4183813400/7514985385/187182
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/ns18lok.png" tvg-id="news18lokmat.in" ,NEWS 18 LOKMAT HD
+http://extraott.com:80/4183813400/7514985385/387634
+#EXTINF:-1 tvg-id="ts322" group-title="HINDI" tvg-logo="https://lo1.in/ind/ddns.png" ,DD NEWS
+http://extraott.com:80/4183813400/7514985385/75408
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/pragns.png" tvg-id="ts423" ,PRAG NEWS HD
+http://extraott.com:80/4183813400/7514985385/187198
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/sunans.png" tvg-id="ts475" ,SUDARSHAN NEWS HD
+http://extraott.com:80/4183813400/7514985385/187275
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/tns.png" tvg-id="ts49" ,T NEWS HD
+http://extraott.com:80/4183813400/7514985385/187285
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/tezns.png" tvg-id="tez.in" ,TEZ NEWS TV HD
+http://extraott.com:80/4183813400/7514985385/187314
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/tv5mon.png" tvg-id="tv5mondeasie.in" ,TV5 MONDE HD
+http://extraott.com:80/4183813400/7514985385/187324
+#EXTINF:-1 tvg-id="ts320" group-title="HINDI" tvg-logo="https://lo1.in/ind/tv5ns.png" ,TV5 NEWS HD
+http://extraott.com:80/4183813400/7514985385/187325
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦ IN ZEE CHANNEL ✦●✦
+http://extraott.com:80/4183813400/7514985385/400159505
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zecn.png" tvg-id="ts503" ,ZEE CINEMA HD
+http://extraott.com:80/4183813400/7514985385/376257
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeet.png" tvg-id="ts63" ,ZEE TV HD
+http://extraott.com:80/4183813400/7514985385/187372
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeeac.png" tvg-id="zeeaction.in" ,ZEE ACTION HD
+http://extraott.com:80/4183813400/7514985385/376259
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeeanm.png" tvg-id="ts523" ,ZEE ANMOL HD
+http://extraott.com:80/4183813400/7514985385/378734
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeeancn.png" tvg-id="ts64" ,ZEE ANMOL CINEMA HD
+http://extraott.com:80/4183813400/7514985385/400159443
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/mbc/zeealwan.png" ,ZEE ALWAN ARAB HD
+http://extraott.com:80/4183813400/7514985385/400281175
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/mbc/zeeaflam.png" ,ZEE AFLAM ARAB HD
+http://extraott.com:80/4183813400/7514985385/400281174
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeebol.png" tvg-id="ts175" ,ZEE BOLLYWOOD
+http://extraott.com:80/4183813400/7514985385/378733
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeebol.png" ,ZEE BOLLYWOOD CANADA HD
+http://extraott.com:80/4183813400/7514985385/21241
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeebs.png" tvg-id="ts260" ,ZEE BUSINESS HD
+http://extraott.com:80/4183813400/7514985385/378732
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeebigmgc.png" tvg-id="bigmagic.in" ,ZEE BIG MAGIC HD
+http://extraott.com:80/4183813400/7514985385/400159449
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeebio.png" ,ZEE BIOSKOP
+http://extraott.com:80/4183813400/7514985385/187354
+#EXTINF:-1 tvg-id="ts814" group-title="HINDI" tvg-logo="https://lo1.in/ind/zeebis.png" ,ZEE BISKOPE HD
+http://extraott.com:80/4183813400/7514985385/187355
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeecf.png" tvg-id="ts502" ,ZEE CAFE HD
+http://extraott.com:80/4183813400/7514985385/400159470
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeecl.png" tvg-id="ts727" ,ZEE CLASSIC
+http://extraott.com:80/4183813400/7514985385/378730
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zecnak.png" tvg-id="zeecinema.in" ,ZEE CINEMA UK HD
+http://extraott.com:80/4183813400/7514985385/400280894
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zecn.png" tvg-id="ts123" ,ZEE CINEMA
+http://extraott.com:80/4183813400/7514985385/400159418
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeehin.png" tvg-id="zeehindustan.in" ,ZEE HINDUSTAN HD
+http://extraott.com:80/4183813400/7514985385/378729
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeeker.png" tvg-id="ts694" ,ZEE KERALAM HD
+http://extraott.com:80/4183813400/7514985385/378728
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeekal.png" tvg-id="kalingatv.in" ,ZEE KALINGA HD
+http://extraott.com:80/4183813400/7514985385/187115
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeens.png" tvg-id="ts259" ,ZEE NEWS HD
+http://extraott.com:80/4183813400/7514985385/400159468
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeeraj.png" ,ZEE RAJASTHAN HD
+http://extraott.com:80/4183813400/7514985385/187363
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeesal.png" tvg-id="zeesalaam.in" ,ZEE SALAAM HD
+http://extraott.com:80/4183813400/7514985385/187365
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeesar.png" tvg-id="ts597" ,ZEE SARTHAK HD
+http://extraott.com:80/4183813400/7514985385/187366
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeeapac.png" ,ZEE TV APAC
+http://extraott.com:80/4183813400/7514985385/187370
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/zeet.png" tvg-id="ts557" ,ZEE TV
+http://extraott.com:80/4183813400/7514985385/400159419
+#EXTINF:-1 tvg-id="ts637" group-title="HINDI" tvg-logo="https://lo1.in/ind/zeeutt.png" ,ZEE UTTAR PRADESH UTTARAKHAND
+http://extraott.com:80/4183813400/7514985385/187373
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,ZEE NEWS UP
+http://extraott.com:80/4183813400/7514985385/36314
+#EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,ZEE NEWS BIHAR
+http://extraott.com:80/4183813400/7514985385/36315
+#EXTINF:-1 tvg-id="ts597" group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,ZEE SARTHAK TV
+http://extraott.com:80/4183813400/7514985385/35793
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦ IN MALAYALAM ✦●✦
+http://extraott.com:80/4183813400/7514985385/187741
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/asie.png" tvg-id="ts292" ,ASIANET HD
+http://extraott.com:80/4183813400/7514985385/355385
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/asie.png" tvg-id="ts532" ,ASIANET NEWS HD
+http://extraott.com:80/4183813400/7514985385/186992
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/asiapl.png" tvg-id="ts294" ,ASIANET PLUS HD
+http://extraott.com:80/4183813400/7514985385/355386
+#EXTINF:-1 tvg-id="ts1173" group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/asie.png" ,ASIANET MOVIES HD
+http://extraott.com:80/4183813400/7514985385/400563991
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/surmv.png" tvg-id="ts229" ,SURYA MOVIES
+http://extraott.com:80/4183813400/7514985385/187278
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/janm.png" tvg-id="ts270" ,JANAM TV
+http://extraott.com:80/4183813400/7514985385/187104
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/flowr.png" tvg-id="ts10" ,FLOWERS TV HD
+http://extraott.com:80/4183813400/7514985385/355388
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/media.png" tvg-id="ts576" ,MEDIA ONE
+http://extraott.com:80/4183813400/7514985385/387636
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/manrns.png" tvg-id="ts87" ,MANORAMA NEWS HD
+http://extraott.com:80/4183813400/7514985385/187138
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/jeev.png" tvg-id="ts372" ,JEEVAN TV
+http://extraott.com:80/4183813400/7514985385/387639
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/amrita.png" tvg-id="ts178" ,AMRITA TV
+http://extraott.com:80/4183813400/7514985385/378763
+#EXTINF:-1 tvg-id="ts1124" group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/repo.png" ,REPORTER TV
+http://extraott.com:80/4183813400/7514985385/387633
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/backg.png" tvg-id="ts479" ,SURYA HD
+http://extraott.com:80/4183813400/7514985385/380212
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/kaum.png" tvg-id="ts378" ,KAUMUDY TV
+http://extraott.com:80/4183813400/7514985385/355391
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/mazh.png" tvg-id="ts395" ,MAZHAVIL MANORAMA HD
+http://extraott.com:80/4183813400/7514985385/187141
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/rajmsml.png" tvg-id="ts425" ,RAJ MUSIX MALAYALAM HD
+http://extraott.com:80/4183813400/7514985385/187217
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/rajnsml.png" tvg-id="ts428" ,RAJ NEWS MALAYALAM
+http://extraott.com:80/4183813400/7514985385/187222
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/flg.png" ,KAIRALI PEOPLE TV MALAYALAM
+http://extraott.com:80/4183813400/7514985385/36399
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/kains.png" tvg-id="ts211" ,KAIRALI NEWS
+http://extraott.com:80/4183813400/7514985385/187112
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/kairw.png" tvg-id="ts553" ,KAIRALI WE
+http://extraott.com:80/4183813400/7514985385/387638
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/kair.png" tvg-id="ts25" ,KAIRALI ARABIA
+http://extraott.com:80/4183813400/7514985385/187113
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/kapp.png" tvg-id="ts377" ,Kappa TV
+http://extraott.com:80/4183813400/7514985385/187117
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/mathns.png" tvg-id="ts394" ,MATHRUBHUMI NEWS MALAYALAM HD
+http://extraott.com:80/4183813400/7514985385/400162529
+#EXTINF:-1 tvg-id="ts66" group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/ns18ke.png" ,News18 Kerala
+http://extraott.com:80/4183813400/7514985385/400374726
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/safr.png" tvg-id="ts436" ,Safari TV
+http://extraott.com:80/4183813400/7514985385/187235
+#EXTINF:-1 tvg-id="ts127" group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/sonc.png" ,SONIC
+http://extraott.com:80/4183813400/7514985385/400159751
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/surycmd.png" tvg-id="ts481" ,SURYA COMEDY
+http://extraott.com:80/4183813400/7514985385/400159587
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/surms.png" tvg-id="ts483" ,SURYA MUSIC
+http://extraott.com:80/4183813400/7514985385/400159586
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/anmpl.png" tvg-id="ts130" ,ANIMAL PLANET HD MALAYALAM
+http://extraott.com:80/4183813400/7514985385/400159750
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/crtnet.png" tvg-id="ts238" ,CARTOON NETWORK HD MALAYALAM
+http://extraott.com:80/4183813400/7514985385/400159757
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/ddmly.png" tvg-id="ts328" ,DD MALAYALAM
+http://extraott.com:80/4183813400/7514985385/355390
+#EXTINF:-1 tvg-id="ts341" group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/dis.png" ,Discovery HD World
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/diskd.png" tvg-id="ts119" ,DISCOVERY KIDS HD MALAYALAM
+http://extraott.com:80/4183813400/7514985385/400159749
+#EXTINF:-1 tvg-id="ts633" group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/invgdis.png" ,INVESTIGATION DISCOVERY HD MALAYALAM
+http://extraott.com:80/4183813400/7514985385/400159748
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/ns18mal.png" ,NEWS 18 MALAYALAM
+http://extraott.com:80/4183813400/7514985385/387723
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/nick.png" tvg-id="ts138" ,NICK HD
+http://extraott.com:80/4183813400/7514985385/400159753
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/nickj.png" tvg-id="nickjrin.in" ,NICK JUNIOR
+http://extraott.com:80/4183813400/7514985385/400159754
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/shalom.png" tvg-id="ts457" ,SHALOM TV
+http://extraott.com:80/4183813400/7514985385/400327291
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/DARSH.png" ,DARSHANA TV
+http://extraott.com:80/4183813400/7514985385/46958
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/flg.png" ,MIDDLE EAST
+http://extraott.com:80/4183813400/7514985385/36395
+#EXTINF:-1 tvg-id="ts799" group-title="MALAYALAM" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-49022-k5lxarmw-v2/imageContent-49022-k5lxarmw-m2.png" ,Twenty Four
+http://extraott.com:80/4183813400/7514985385/36396
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/flg.png" ,SHOLAM TV MALAYALAM
+http://extraott.com:80/4183813400/7514985385/36397
+#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-258-j5fz98sg-v1/imageContent-258-j5fz98sg-m1.png" tvg-id="ts82" ,Kochu TV
+http://extraott.com:80/4183813400/7514985385/36398
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦ IN INDIA TELUGU ✦●✦
+http://extraott.com:80/4183813400/7514985385/400201560
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/mammv.png" tvg-id="ts957" ,STAR MAA MOVIES HD
+http://extraott.com:80/4183813400/7514985385/187130
+#EXTINF:-1 tvg-id="ts388" group-title="TELUGU" tvg-logo="https://lo1.in/ind/stargd.png" ,STAR MAA GOLD HD
+http://extraott.com:80/4183813400/7514985385/400162500
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/gemmv.png" tvg-id="ts362" ,GEMINI MOVIES HD
+http://extraott.com:80/4183813400/7514985385/400162492
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/zetel.png" tvg-id="ts635" ,ZEE TELUGU HD
+http://extraott.com:80/4183813400/7514985385/400162490
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/zecnm.png" tvg-id="ts636" ,ZEE CINEMALU HD
+http://extraott.com:80/4183813400/7514985385/378731
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/starm.png" tvg-id="ts516" ,STAR MAA HD
+http://extraott.com:80/4183813400/7514985385/187129
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/gemi.png" tvg-id="ts355" ,GEMINI TV HD
+http://extraott.com:80/4183813400/7514985385/187073
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/gemncmy.png" tvg-id="ts360" ,GEMINI COMEDY HD
+http://extraott.com:80/4183813400/7514985385/400203353
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/gemlf.png" tvg-id="ts361" ,GEMINI LIFE HD
+http://extraott.com:80/4183813400/7514985385/400159453
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/vis.png" tvg-id="vissatv.in" ,VISSA TV HD
+http://extraott.com:80/4183813400/7514985385/400162486
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/etv.png" tvg-id="ts359" ,ETV HD
+http://extraott.com:80/4183813400/7514985385/400159465
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/etvcn.png" tvg-id="ts1341" ,ETV CINEMA HD
+http://extraott.com:80/4183813400/7514985385/400159467
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/htv.png" tvg-id="hmtv.in" ,HM TV HD
+http://extraott.com:80/4183813400/7514985385/400162491
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/9telg.png" ,TV9 TELUGU HD
+http://extraott.com:80/4183813400/7514985385/187331
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/sakshi.png" tvg-id="sakshitv.in" ,SAKSHI TV HD
+http://extraott.com:80/4183813400/7514985385/187240
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/rajms.png" tvg-id="rajnewstelugu.in" ,RAJ NEWS TELUGU HD
+http://extraott.com:80/4183813400/7514985385/187223
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/v6ns.png" ,V6 NEWS HD
+http://extraott.com:80/4183813400/7514985385/187336
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/stud.png" ,STUDIO YUVA
+http://extraott.com:80/4183813400/7514985385/400374761
+#EXTINF:-1 tvg-id="ts266" group-title="TELUGU" tvg-logo="https://lo1.in/ind/10t.png" ,10 TV
+http://extraott.com:80/4183813400/7514985385/400374760
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/bhakt.png" tvg-id="ts290" ,BHAKTI TV
+http://extraott.com:80/4183813400/7514985385/187001
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/flg.png" tvg-id="ts425" ,RAJ MUSIX TELUGU HD
+http://extraott.com:80/4183813400/7514985385/187218
+#EXTINF:-1 tvg-id="ts160" group-title="TELUGU" tvg-logo="https://lo1.in/ind/ntvtel.png" ,NTV TELUGU
+http://extraott.com:80/4183813400/7514985385/378752
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/crtnet.png" tvg-id="ts238" ,CARTOON NETWORK HD TELUGU
+http://extraott.com:80/4183813400/7514985385/400203364
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/ntgew.png" tvg-id="ts184" ,NAT GEO WILD HD TELUGU
+http://extraott.com:80/4183813400/7514985385/400203363
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/ntge.png" tvg-id="natgeowildhd.in" ,NAT GEO HD TELUGU
+http://extraott.com:80/4183813400/7514985385/400203362
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/nick.png" tvg-id="ts138" ,NICK HD TELUGU
+http://extraott.com:80/4183813400/7514985385/400203360
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/nickj.png" tvg-id="nickjrin.in" ,NICK JUNIOR HD TELUGU
+http://extraott.com:80/4183813400/7514985385/400203361
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/pog.png" tvg-id="ts239" ,POGO HD TELUGU
+http://extraott.com:80/4183813400/7514985385/400203359
+#EXTINF:-1 tvg-id="ts127" group-title="TELUGU" tvg-logo="https://lo1.in/ind/sonict.png" ,SONIC HD TELUGU
+http://extraott.com:80/4183813400/7514985385/400203358
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/animplte.png" tvg-id="ts130" ,ANIMAL PLANET HD TELUGU
+http://extraott.com:80/4183813400/7514985385/400203357
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/diskd.png" tvg-id="ts119" ,DISCOVERY KIDS HD TELUGU
+http://extraott.com:80/4183813400/7514985385/400203356
+#EXTINF:-1 tvg-id="ts633" group-title="TELUGU" tvg-logo="https://lo1.in/ind/invgdis.png" ,INVESTIGATION DISCOVERY HD TELUGU
+http://extraott.com:80/4183813400/7514985385/400203355
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/distelu.png" tvg-id="discoveryhd.in" ,DISCOVERY HD TELUGU
+http://extraott.com:80/4183813400/7514985385/400203354
+#EXTINF:-1 tvg-id="ts337" group-title="TELUGU" tvg-logo="https://lo1.in/ind/flg.png" ,DD SAPTAGIRI TELUGU
+http://extraott.com:80/4183813400/7514985385/36400
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/flg.png" ,SONY YAY TELUGU
+http://extraott.com:80/4183813400/7514985385/36401
+#EXTINF:-1 tvg-id="ts158" group-title="TELUGU" tvg-logo="https://lo1.in/ind/flg.png" ,SONY BBC EARTH HD TELUGU
+http://extraott.com:80/4183813400/7514985385/36402
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/flg.png" ,KUSHI TV TELUGU
+http://extraott.com:80/4183813400/7514985385/36403
+#EXTINF:-1 tvg-id="ts1135" group-title="TELUGU" tvg-logo="https://lo1.in/ind/flg.png" ,VANITHA TV TELUGU
+http://extraott.com:80/4183813400/7514985385/36404
+#EXTINF:-1 tvg-id="ts363" group-title="TELUGU" tvg-logo="https://lo1.in/ind/flg.png" ,GEMINI MUSIC TELUGU
+http://extraott.com:80/4183813400/7514985385/36405
+#EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/flg.png" ,TATA PLAY TELUGU CINEMA HD
+http://extraott.com:80/4183813400/7514985385/36406
+#EXTINF:-1 tvg-id="ts172" group-title="TELUGU" tvg-logo="https://lo1.in/ind/flg.png" ,HISTORY TV18 TELUGU HD
+http://extraott.com:80/4183813400/7514985385/36407
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦   IN TAMIL  ✦●✦
+http://extraott.com:80/4183813400/7514985385/355359
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/ibct.png" ,IBC TAMIL HD
+http://extraott.com:80/4183813400/7514985385/355375
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,IBC BAKTHI TAMIL
+http://extraott.com:80/4183813400/7514985385/36392
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,AUS Tamil TV
+http://extraott.com:80/4183813400/7514985385/400804049
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/stplay/svijay.png" tvg-id="ts496" ,STAR VIJAY HD
+http://extraott.com:80/4183813400/7514985385/187272
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/vijasp.png" tvg-id="ts1176" ,VIJAY SUPER HD
+http://extraott.com:80/4183813400/7514985385/400159597
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/sunt.png" tvg-id="ts521" ,SUN TV HD
+http://extraott.com:80/4183813400/7514985385/355371
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/sunlf.png" tvg-id="ts474" ,SUN LIFE TV HD
+http://extraott.com:80/4183813400/7514985385/187276
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/sunms.png" tvg-id="ts520" ,SUN MUSIC HD
+http://extraott.com:80/4183813400/7514985385/355370
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/suns.png" tvg-id="sunnews.in" ,SUN TV NEWS HD
+http://extraott.com:80/4183813400/7514985385/400200897
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/ktv.png" tvg-id="ts380" ,KTV HD
+http://extraott.com:80/4183813400/7514985385/355367
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/rajt.png" tvg-id="rajtv.in" ,RAJ TV HD
+http://extraott.com:80/4183813400/7514985385/187224
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/rajmsx.png" tvg-id="ts425" ,RAJ MUSIX HD
+http://extraott.com:80/4183813400/7514985385/187215
+#EXTINF:-1 group-title="TAMIL" ,ISAI ARUVI HD
+http://extraott.com:80/4183813400/7514985385/400563966
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/rajns.png" tvg-id="rajnewskannada.in" ,RAJ NEWS HD
+http://extraott.com:80/4183813400/7514985385/187219
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/rajdpl.png" tvg-id="ts426" ,RAJ DIGITAL PLUS HD
+http://extraott.com:80/4183813400/7514985385/187214
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/jaymx.png" tvg-id="ts199" ,JAYA MAX HD
+http://extraott.com:80/4183813400/7514985385/187106
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/jmv.png" tvg-id="ts201" ,J MOVIES HD
+http://extraott.com:80/4183813400/7514985385/187101
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/jayps.png" tvg-id="ts198" ,JAYA PLUS HD
+http://extraott.com:80/4183813400/7514985385/187108
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/zetam.png" tvg-id="ts608" ,ZEE TAMIL HD
+http://extraott.com:80/4183813400/7514985385/355372
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/puth.png" tvg-id="puthiyathalaimurai.in" ,PUTHIYA THALIMURAI
+http://extraott.com:80/4183813400/7514985385/187212
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/maklt.png" tvg-id="ts392" ,MAKKAL TV
+http://extraott.com:80/4183813400/7514985385/187134
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/than.png" tvg-id="ts524" ,THANTHI TV
+http://extraott.com:80/4183813400/7514985385/355378
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/srisk.png" tvg-id="srisankaratv.in" ,SRI SANKARA TV HD
+http://extraott.com:80/4183813400/7514985385/187264
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/kalgt.png" tvg-id="kalaignartv.in" ,KALAIGNAR TV HD
+http://extraott.com:80/4183813400/7514985385/187114
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/murs.png" tvg-id="ts411" ,MURASU TV
+http://extraott.com:80/4183813400/7514985385/187156
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/eet.png" ,EET TV HD
+http://extraott.com:80/4183813400/7514985385/187058
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/3tam.png" ,3 TAMIL TV HD
+http://extraott.com:80/4183813400/7514985385/387754
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/clrt.png" tvg-id="ts674" ,COLORS TAMIL HD
+http://extraott.com:80/4183813400/7514985385/355363
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/ddpo.png" tvg-id="ddpodhigai.in" ,DD PODHIGAI HD
+http://extraott.com:80/4183813400/7514985385/187037
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/ddsa.png" tvg-id="ts337" ,DD SAPTAGIRI HD
+http://extraott.com:80/4183813400/7514985385/187041
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/ibccmd.png" ,IBC COMEDY
+http://extraott.com:80/4183813400/7514985385/355374
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/jayt.png" tvg-id="ts708" ,JAYA TV HD
+http://extraott.com:80/4183813400/7514985385/355366
+#EXTINF:-1 group-title="TAMIL" ,RASI TAMIL HD
+http://extraott.com:80/4183813400/7514985385/35441
+#EXTINF:-1 group-title="TAMIL" ,RASI MOVIES
+http://extraott.com:80/4183813400/7514985385/35442
+#EXTINF:-1 group-title="TAMIL" ,RASI MUSIC
+http://extraott.com:80/4183813400/7514985385/21933
+#EXTINF:-1 group-title="TAMIL" ,RASI HOLLYWOOD
+http://extraott.com:80/4183813400/7514985385/21932
+#EXTINF:-1 group-title="TAMIL" ,MSN
+http://extraott.com:80/4183813400/7514985385/21931
+#EXTINF:-1 group-title="TAMIL" ,SAAMI TV
+http://extraott.com:80/4183813400/7514985385/21930
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/namb.png" tvg-id="ts408" ,NAMBIKKAI TV
+http://extraott.com:80/4183813400/7514985385/355368
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/ns18t.png" tvg-id="news18tamilnadu.in" ,NEWS 18 TAMIL
+http://extraott.com:80/4183813400/7514985385/187180
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/putiy.png" ,PUTIYA THALAMURAI HD
+http://extraott.com:80/4183813400/7514985385/400374737
+#EXTINF:-1 tvg-id="ts434" group-title="TAMIL" tvg-logo="https://lo1.in/ind/joth.png" ,JOTHI TV
+http://extraott.com:80/4183813400/7514985385/400374735
+#EXTINF:-1 tvg-id="ts400" group-title="TAMIL" tvg-logo="https://lo1.in/ind/megms.png" ,MEGA MUSIQ
+http://extraott.com:80/4183813400/7514985385/400374734
+#EXTINF:-1 tvg-id="ts396" group-title="TAMIL" tvg-logo="https://lo1.in/ind/mega24.png" ,MEGA 24
+http://extraott.com:80/4183813400/7514985385/400374733
+#EXTINF:-1 tvg-id="ts611" group-title="TAMIL" tvg-logo="https://lo1.in/ind/siripol.png" ,SIRIPPOLI
+http://extraott.com:80/4183813400/7514985385/400374732
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/itsuae/news7.png" ,NEWS 7 TAMIL HD
+http://extraott.com:80/4183813400/7514985385/25602
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/pogt.png" tvg-id="ts239" ,POGO HD TAMIL
+http://extraott.com:80/4183813400/7514985385/400159785
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/polns.png" tvg-id="ts509" ,POLIMER NEWS HD
+http://extraott.com:80/4183813400/7514985385/187195
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/polmt.png" tvg-id="ts272" ,POLIMER TV
+http://extraott.com:80/4183813400/7514985385/187196
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/sonci.png" tvg-id="ts127" ,SONIC HD TAMIL
+http://extraott.com:80/4183813400/7514985385/400159784
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/snybbce.png" tvg-id="ts460" ,SONY BBC EARTH HD
+http://extraott.com:80/4183813400/7514985385/187251
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/snyy.png" tvg-id="sonyyay.in" ,SONY YAY
+http://extraott.com:80/4183813400/7514985385/187263
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/strsp1t.png" tvg-id="ts77" ,STAR SPORTS 1 TAMIL
+http://extraott.com:80/4183813400/7514985385/400159598
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/tamvsnt.png" ,TAMIL VISION INTERNATIONAL
+http://extraott.com:80/4183813400/7514985385/387631
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/travt.png" tvg-id="ts55" ,TRAVELXP TAMIL HD
+http://extraott.com:80/4183813400/7514985385/187319
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/vasan.png" tvg-id="ts499" ,VASANTH TV
+http://extraott.com:80/4183813400/7514985385/187337
+#EXTINF:-1 tvg-id="ts1182" group-title="TAMIL" tvg-logo="https://lo1.in/ind/zeth.png" ,ZEE THIRAI HD
+http://extraott.com:80/4183813400/7514985385/187369
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/angl.png" tvg-id="angeltv.in" ,ANGEL TV HD
+http://extraott.com:80/4183813400/7514985385/186985
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/animplt.png" tvg-id="ts130" ,ANIMAL PLANET HD TAMIL
+http://extraott.com:80/4183813400/7514985385/400159783
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/crtnetk.png" tvg-id="ts238" ,CARTOON NETWORK HD TAMIL
+http://extraott.com:80/4183813400/7514985385/400159790
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/dist.png" tvg-id="discoverytamil.in" ,DISCOVERY HD TAMIL
+http://extraott.com:80/4183813400/7514985385/400159780
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/diskt.png" tvg-id="ts119" ,DISCOVERY KIDS HD TAMIL
+http://extraott.com:80/4183813400/7514985385/400159782
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/fclf.png" tvg-id="foxlife.in" ,FOX LIFE HD
+http://extraott.com:80/4183813400/7514985385/355364
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/hist18.png" tvg-id="ts616" ,HISTORY TV18 HD
+http://extraott.com:80/4183813400/7514985385/355365
+#EXTINF:-1 tvg-id="ts633" group-title="TAMIL" tvg-logo="https://lo1.in/ind/invdis.png" ,INVESTIGATION DISCOVERY HD TAMIL
+http://extraott.com:80/4183813400/7514985385/400159781
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/natget.png" tvg-id="nationalgeographicchannel.in" ,NAT GEO HD TAMIL
+http://extraott.com:80/4183813400/7514985385/400159788
+#EXTINF:-1 group-title="TAMIL" ,SHALINI TV HD
+http://extraott.com:80/4183813400/7514985385/43190
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/natgewt.png" tvg-id="ts184" ,NAT GEO WILD HD TAMIL
+http://extraott.com:80/4183813400/7514985385/400159789
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/nick.png" tvg-id="ts138" ,NICK HD TAMIL
+http://extraott.com:80/4183813400/7514985385/400159786
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/nickj.png" tvg-id="nickjrin.in" ,NICK JUNIOR HD TAMIL
+http://extraott.com:80/4183813400/7514985385/400159787
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,FOX LIFE HD TAMIL
+http://extraott.com:80/4183813400/7514985385/36375
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,CAPTAIN TV TAMIL
+http://extraott.com:80/4183813400/7514985385/36376
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,WIN NEWS TAMIL
+http://extraott.com:80/4183813400/7514985385/36377
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,VALICHAM PLUS TAMIL
+http://extraott.com:80/4183813400/7514985385/36378
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,IMAYAM TV TAMIL
+http://extraott.com:80/4183813400/7514985385/36379
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,MADHA TV TAMIL
+http://extraott.com:80/4183813400/7514985385/36380
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,TUNE 6 TAMIL
+http://extraott.com:80/4183813400/7514985385/36381
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,MOON TV TAMIL
+http://extraott.com:80/4183813400/7514985385/36382
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,TAMILAN TV TAMIL
+http://extraott.com:80/4183813400/7514985385/36383
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,SAHANA TV TAMIL
+http://extraott.com:80/4183813400/7514985385/36386
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,SATHIYAM TV TAMIL
+http://extraott.com:80/4183813400/7514985385/36388
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,PUTHUYUGAM TAMIL
+http://extraott.com:80/4183813400/7514985385/36389
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,CHUTTI TV TAMIL
+http://extraott.com:80/4183813400/7514985385/36390
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,TVI HD TAMIL
+http://extraott.com:80/4183813400/7514985385/36391
+#EXTINF:-1 tvg-id="ts663" group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,TATA PLAY TAMIL CINEMA
+http://extraott.com:80/4183813400/7514985385/36393
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,ADHTIYA TV TAMIL
+http://extraott.com:80/4183813400/7514985385/36394
+#EXTINF:-1 group-title="TAMIL" tvg-logo="https://lo1.in/ind/flg.png" ,VAANAVIL HD
+http://extraott.com:80/4183813400/7514985385/400836213
+#EXTINF:-1 group-title="TAMIL" ,GTA TAMIL TV HD
+http://extraott.com:80/4183813400/7514985385/35591
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦ IN PUNJABI ✦●✦
+http://extraott.com:80/4183813400/7514985385/187602
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/ptcpj.png" tvg-id="ptcpunjabi.in" ,PTC PUNJABI HD
+http://extraott.com:80/4183813400/7514985385/400162506
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/ptcsm.png" tvg-id="ts773" ,PTC SIMRAN
+http://extraott.com:80/4183813400/7514985385/400159611
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/ptcpgd.png" tvg-id="ptcpunjabigold.in" ,PTC PUNJABI GOLD TV
+http://extraott.com:80/4183813400/7514985385/187207
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/ptcns.png" tvg-id="ts91" ,PTC NEWS HD
+http://extraott.com:80/4183813400/7514985385/187206
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/ptcha.png" tvg-id="ts92" ,PTC CHAK DE HD
+http://extraott.com:80/4183813400/7514985385/187205
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/ns18ph.png" tvg-id="news18punjabharyanahimachal.in" ,NEWS 18 PUNJAB HARYANA HD
+http://extraott.com:80/4183813400/7514985385/187165
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/pitar.png" tvg-id="pitaara.in" ,PITAARA TV HD
+http://extraott.com:80/4183813400/7514985385/400162507
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/zep.png" tvg-id="zeepunjabi.in" ,ZEE PUNJABI HD
+http://extraott.com:80/4183813400/7514985385/187362
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/chartm.png" tvg-id="chardiklatimetv.in" ,CHARDIKLA TIME TV HD
+http://extraott.com:80/4183813400/7514985385/187010
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/dbpun.png" tvg-id="ddpunjabi.in" ,DD PUNJABI HD
+http://extraott.com:80/4183813400/7514985385/400162509
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/vispt.png" ,VISION PUNJAB GURBANI HD
+http://extraott.com:80/4183813400/7514985385/187341
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/vispt.png" ,VISION PUNJAB TV HD
+http://extraott.com:80/4183813400/7514985385/187343
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/gundp.png" ,GAUNDA PUNJAB TV
+http://extraott.com:80/4183813400/7514985385/387641
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/prcnd.png" ,PRIME CANADA TV HD
+http://extraott.com:80/4183813400/7514985385/187201
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/prima.png" ,PRIME ASIA HD
+http://extraott.com:80/4183813400/7514985385/376439
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/pnjbt.png" ,PUNJABI TV HD
+http://extraott.com:80/4183813400/7514985385/187210
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/indnspu.png" tvg-id="indianewspunjab.in" ,INDIA NEWS PUNJABI HIMACHAL
+http://extraott.com:80/4183813400/7514985385/400374789
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/garv.png" ,GARV PUNJAB
+http://extraott.com:80/4183813400/7514985385/400374788
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/ns18pu.png" ,NEWS 18 PUNJABI
+http://extraott.com:80/4183813400/7514985385/400374787
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/zeph.png" ,ZEE PUNJAB HARYANA HD
+http://extraott.com:80/4183813400/7514985385/187361
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/punj.png" ,TV PUNJAB HD
+http://extraott.com:80/4183813400/7514985385/187321
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/mh1ms.png" ,MH1 MUSIC
+http://extraott.com:80/4183813400/7514985385/187145
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/glbsan.png" ,GLOBAL PUNJABI HD
+http://extraott.com:80/4183813400/7514985385/187076
+#EXTINF:-1 group-title="PUNJABI" ,ATN Punjabi HD
+http://extraott.com:80/4183813400/7514985385/38316
+#EXTINF:-1 group-title="PUNJABI" ,ATN Punjabi 5 HD
+http://extraott.com:80/4183813400/7514985385/38315
+#EXTINF:-1 tvg-id="ts793" group-title="PUNJABI" tvg-logo="https://lo1.in/ind/lvns.png" ,LIVING INDIA NEWS HD
+http://extraott.com:80/4183813400/7514985385/400162505
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/fath.png" ,FATEH TV HD
+http://extraott.com:80/4183813400/7514985385/400162508
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/hulch.png" ,HULCHUL TV HD
+http://extraott.com:80/4183813400/7514985385/387733
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/manmv.png" tvg-id="manoranjanmovies.in" ,MANORANJAN MOVIES HD
+http://extraott.com:80/4183813400/7514985385/187139
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/desich.png" ,DESI CHANNEL HD
+http://extraott.com:80/4183813400/7514985385/187044
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/anmplp.png" tvg-id="ts130" ,ANIMAL PLANET HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/400159824
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/crtnetp.png" tvg-id="ts238" ,CARTOON NETWORK HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/400159831
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/dispu.png" tvg-id="discoveryhd.in" ,DISCOVERY HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/400159821
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/diskdp.png" tvg-id="ts119" ,DISCOVERY KIDS HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/400159823
+#EXTINF:-1 tvg-id="ts633" group-title="PUNJABI" tvg-logo="https://lo1.in/ind/invis.png" ,INVESTIGATION DISCOVERY HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/400159822
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/manoj.png" tvg-id="manoranjanmovies.in" ,MANORANJAN TV HD
+http://extraott.com:80/4183813400/7514985385/187140
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/ntgep.png" tvg-id="natgeowild.in" ,NAT GEO HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/400159829
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/ntgwp.png" tvg-id="ts184" ,NAT GEO WILD HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/400159830
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/nickp.png" tvg-id="ts138" ,NICK HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/400159827
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/nickjp.png" tvg-id="nickjrin.in" ,NICK JUNIOR HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/400159828
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/pogop.png" tvg-id="ts239" ,POGO HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/400159826
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/sonicp.png" tvg-id="ts127" ,SONIC HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/400159825
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/flg.png" ,PCHS TV HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/36365
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/flg.png" ,AIKAM TV HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/36366
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/flg.png" ,JUS ONE PUNJABI
+http://extraott.com:80/4183813400/7514985385/36367
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/flg.png" ,MAHA PUNJABI
+http://extraott.com:80/4183813400/7514985385/36368
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/flg.png" ,SSTV HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/36369
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/flg.png" ,SANJHA TV HD PUNJABI
+http://extraott.com:80/4183813400/7514985385/36370
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/flg.png" ,MH1 NEWS PUNJABI
+http://extraott.com:80/4183813400/7514985385/36372
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/flg.png" ,MH1 SHRADDHA PUNJABI
+http://extraott.com:80/4183813400/7514985385/36371
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/flg.png" ,KTV INDIA PUNJABI
+http://extraott.com:80/4183813400/7514985385/36373
+#EXTINF:-1 group-title="PUNJABI" tvg-logo="https://lo1.in/ind/flg.png" ,HAMDARD HD
+http://extraott.com:80/4183813400/7514985385/47352
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/zeevajw.png" ,ZEE VAJWA HD
+http://extraott.com:80/4183813400/7514985385/400159461
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/mart.png" ,✦●✦  IN  MARATHI ✦●✦
+http://extraott.com:80/4183813400/7514985385/187601
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/strpr.png" tvg-id="ts469" ,STAR PRAVAH HD
+http://extraott.com:80/4183813400/7514985385/400159607
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/zeyuv.png" tvg-id="ts248" ,ZEE YUVA HD
+http://extraott.com:80/4183813400/7514985385/378727
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/snymar.png" tvg-id="sonymarathi.in" ,SONY MARATHI HD
+http://extraott.com:80/4183813400/7514985385/400159608
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/zetal.png" tvg-id="ts515" ,ZEE TALKIES HD
+http://extraott.com:80/4183813400/7514985385/400159455
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/zemar.png" tvg-id="ts501" ,ZEE MARATHI HD
+http://extraott.com:80/4183813400/7514985385/400159609
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/clrmar.png" tvg-id="ts308" ,COLORS MARATHI HD
+http://extraott.com:80/4183813400/7514985385/400159610
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/tv9mar.png" tvg-id="tv9marathi.in" ,TV9 MARATHI HD
+http://extraott.com:80/4183813400/7514985385/187330
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/faktm.png" tvg-id="faktmarathi.in" ,FAKT MARATHI HD
+http://extraott.com:80/4183813400/7514985385/400162534
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/9xjh.png" tvg-id="9xjhakaas.in" ,9X JHAKAAS HD
+http://extraott.com:80/4183813400/7514985385/400162533
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/ze24ta.png" tvg-id="ts261" ,ZEE 24 TAAS HD
+http://extraott.com:80/4183813400/7514985385/378735
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/abpmaj.png" tvg-id="ts155" ,ABP MAJHA MARATHI HD
+http://extraott.com:80/4183813400/7514985385/186980
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/sammar.png" tvg-id="saamtv.in" ,SAAM MARATHI HD
+http://extraott.com:80/4183813400/7514985385/187234
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/dbsah.png" tvg-id="ts336" ,DD SAHYADRI HD
+http://extraott.com:80/4183813400/7514985385/400162535
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/sangm.png" tvg-id="sangeetmarathi.in" ,SANGEET MARATHI HD
+http://extraott.com:80/4183813400/7514985385/187242
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/anmpl.png" tvg-id="ts130" ,ANIMAL PLANET HD MARATHI
+http://extraott.com:80/4183813400/7514985385/400159847
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/crtnetk.png" tvg-id="ts238" ,CARTOON NETWORK HD MARATHI
+http://extraott.com:80/4183813400/7514985385/400159854
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/disc.png" tvg-id="discoveryhd.in" ,DISCOVERY HD MARATHI
+http://extraott.com:80/4183813400/7514985385/400159844
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/diskd.png" tvg-id="ts119" ,DISCOVERY KIDS HD MARATHI
+http://extraott.com:80/4183813400/7514985385/400159846
+#EXTINF:-1 tvg-id="ts633" group-title="MARATHI" tvg-logo="https://lo1.in/ind/invgdis.png" ,INVESTIGATION DISCOVERY HD MARATHI
+http://extraott.com:80/4183813400/7514985385/400159845
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/loksh.png" ,LOKSHAHI
+http://extraott.com:80/4183813400/7514985385/400159606
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/ntge.png" tvg-id="natgeowild.in" ,NAT GEO HD MARATHI
+http://extraott.com:80/4183813400/7514985385/400159852
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/natgewt.png" tvg-id="ts184" ,NAT GEO WILD HD MARATHI
+http://extraott.com:80/4183813400/7514985385/400159853
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/nick.png" tvg-id="ts138" ,NICK HD MARATHI
+http://extraott.com:80/4183813400/7514985385/400159850
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/nickj.png" tvg-id="nickjrin.in" ,NICK JUNIOR HD MARATHI
+http://extraott.com:80/4183813400/7514985385/400159851
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/pog.png" tvg-id="ts239" ,POGO HD MARATHI
+http://extraott.com:80/4183813400/7514985385/400159849
+#EXTINF:-1 group-title="MARATHI" tvg-logo="https://lo1.in/ind/shemr.png" tvg-id="ts800" ,SHEMAROO MARATHIBANA
+http://extraott.com:80/4183813400/7514985385/378747
+#EXTINF:-1 tvg-id="ts127" group-title="MARATHI" tvg-logo="https://lo1.in/ind/nicksnc.png" ,SONIC HD MARATHI
+http://extraott.com:80/4183813400/7514985385/400159848
+#EXTINF:-1 tvg-id="ts34" group-title="MARATHI" tvg-logo="https://lo1.in/ind/flg.png" ,SONY AATH MARATHI
+http://extraott.com:80/4183813400/7514985385/36364
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦   IN GUJARATI ✦●✦
+http://extraott.com:80/4183813400/7514985385/187599
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/flg.png" tvg-id="ts497" ,VTV NEWS GUJARATI
+http://extraott.com:80/4183813400/7514985385/187345
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/abpas.png" tvg-id="ts73" ,ABP ASMITA
+http://extraott.com:80/4183813400/7514985385/186979
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/clrsg.png" tvg-id="colorsgujarati.in" ,COLORS GUJRATI TV HD
+http://extraott.com:80/4183813400/7514985385/187020
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/9guj.png" tvg-id="tv9gujarati.in" ,TV9 GUJARATI HD
+http://extraott.com:80/4183813400/7514985385/187328
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/cnbcb.png" tvg-id="cnbcbajar.in" ,CNBC BAJAR HD
+http://extraott.com:80/4183813400/7514985385/187014
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/clrgucn.png" tvg-id="colorsgujaraticinema.in" ,COLORS GUJRATI CINEMA HD
+http://extraott.com:80/4183813400/7514985385/187019
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/ze24kl.png" tvg-id="zee24kalak.in" ,ZEE 24 KALAK GUJRATI HD
+http://extraott.com:80/4183813400/7514985385/400162531
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/ddgir.png" tvg-id="ts323" ,DD GIRNAR HD
+http://extraott.com:80/4183813400/7514985385/187031
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/ns18guj.png" tvg-id="news18gujarati.in" ,NEWS 18 GUJARATI
+http://extraott.com:80/4183813400/7514985385/187174
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/pog.png" tvg-id="ts239" ,POGO HD GUJARATI
+http://extraott.com:80/4183813400/7514985385/400159866
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/sandshins.png" tvg-id="sandeshnews.in" ,SANDESH NEWS GUJRATI HD
+http://extraott.com:80/4183813400/7514985385/400162530
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/sonict.png" tvg-id="ts127" ,SONIC HD GUJARATI
+http://extraott.com:80/4183813400/7514985385/400159865
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/9bhar.png" tvg-id="ts706" ,TV9 BHARATVARSH HD
+http://extraott.com:80/4183813400/7514985385/187327
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/cnbcaw.png" tvg-id="ts204" ,CNBC AWAAZ HD
+http://extraott.com:80/4183813400/7514985385/387644
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/animplte.png" tvg-id="ts130" ,ANIMAL PLANET HD GUJARATI
+http://extraott.com:80/4183813400/7514985385/400159864
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/crtnet.png" tvg-id="ts238" ,CARTOON NETWORK HD GUJARATI
+http://extraott.com:80/4183813400/7514985385/400159871
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/distelu.png" tvg-id="discoveryhd.in" ,DISCOVERY HD GUJARATI
+http://extraott.com:80/4183813400/7514985385/400159861
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/diskd.png" tvg-id="ts119" ,DISCOVERY KIDS HD GUJARATI
+http://extraott.com:80/4183813400/7514985385/400159863
+#EXTINF:-1 tvg-id="ts633" group-title="GUJARATI" tvg-logo="https://lo1.in/ind/invgdis.png" ,INVESTIGATION DISCOVERY HD GUJARATI
+http://extraott.com:80/4183813400/7514985385/400159862
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/ntge.png" tvg-id="nationalgeographicchannelhd.in" ,NAT GEO HD GUJARATI
+http://extraott.com:80/4183813400/7514985385/400159869
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/ntgew.png" tvg-id="ts184" ,NAT GEO WILD HD GUJARATI
+http://extraott.com:80/4183813400/7514985385/400159870
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/nick.png" tvg-id="ts138" ,NICK HD GUJARATI
+http://extraott.com:80/4183813400/7514985385/400159867
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/nickj.png" tvg-id="nickjrin.in" ,NICK JUNIOR HD GUJARATI
+http://extraott.com:80/4183813400/7514985385/400159868
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/indnsg.png" tvg-id="ts183" ,INDIA NEWS  GUJARATI
+http://extraott.com:80/4183813400/7514985385/400374851
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/tatskycn.png" ,GUJRATI CINEMA
+http://extraott.com:80/4183813400/7514985385/400374850
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/flg.png" ,MANTAVYA NEWS GUJARATI
+http://extraott.com:80/4183813400/7514985385/36359
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/flg.png" ,LAKSHYA TV HD GUJARATI
+http://extraott.com:80/4183813400/7514985385/36360
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/flg.png" tvg-id="gstv.in" ,GSTV GUJARATI
+http://extraott.com:80/4183813400/7514985385/36361
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/flg.png" tvg-id="cnbcbajar.in" ,CNBC BAZAR GUJARATI
+http://extraott.com:80/4183813400/7514985385/36362
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/prar.png" ,PRARTHANA
+http://extraott.com:80/4183813400/7514985385/400374849
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 1
+http://extraott.com:80/4183813400/7514985385/400374848
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 2
+http://extraott.com:80/4183813400/7514985385/400374847
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 3
+http://extraott.com:80/4183813400/7514985385/400374846
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 4
+http://extraott.com:80/4183813400/7514985385/400374845
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 5
+http://extraott.com:80/4183813400/7514985385/400374844
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 6
+http://extraott.com:80/4183813400/7514985385/400374843
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 7
+http://extraott.com:80/4183813400/7514985385/400374842
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 8
+http://extraott.com:80/4183813400/7514985385/400374841
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 9
+http://extraott.com:80/4183813400/7514985385/400374840
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 10
+http://extraott.com:80/4183813400/7514985385/400374839
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 11
+http://extraott.com:80/4183813400/7514985385/400374838
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 12
+http://extraott.com:80/4183813400/7514985385/400374837
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 13
+http://extraott.com:80/4183813400/7514985385/400374836
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 14
+http://extraott.com:80/4183813400/7514985385/400374835
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 15
+http://extraott.com:80/4183813400/7514985385/400374834
+#EXTINF:-1 group-title="GUJARATI" tvg-logo="https://lo1.in/ind/vand.png" ,VANDE GUJARAT 16
+http://extraott.com:80/4183813400/7514985385/400374833
+#EXTINF:-1 tvg-id="ts345" group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/hung.png" ,HUNGAMA TV HD
+http://extraott.com:80/4183813400/7514985385/75363
+#EXTINF:-1 group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦  IN  BHOJPURI ✦●✦
+http://extraott.com:80/4183813400/7514985385/187598
+#EXTINF:-1 group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/animplte.png" tvg-id="ts130" ,ANIMAL PLANET HD BHOJPURI
+http://extraott.com:80/4183813400/7514985385/400159887
+#EXTINF:-1 tvg-id="ts729" group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/b4umvs.png" ,B4U BHOJPURI
+http://extraott.com:80/4183813400/7514985385/400159621
+#EXTINF:-1 group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/bhojcn.png" tvg-id="bhojpuricinema.in" ,BHOJPURI CINEMA HD
+http://extraott.com:80/4183813400/7514985385/187003
+#EXTINF:-1 group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/crtnet.png" tvg-id="ts238" ,CARTOON NETWORK HD BHOJPURI
+http://extraott.com:80/4183813400/7514985385/400159894
+#EXTINF:-1 group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/dang.png" tvg-id="ts51" ,DANGAL HD
+http://extraott.com:80/4183813400/7514985385/378759
+#EXTINF:-1 group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/distelu.png" tvg-id="discovery.in" ,DISCOVERY HD BHOJPURI
+http://extraott.com:80/4183813400/7514985385/400159884
+#EXTINF:-1 group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/diskd.png" tvg-id="ts119" ,DISCOVERY KIDS HD BHOJPURI
+http://extraott.com:80/4183813400/7514985385/400159886
+#EXTINF:-1 tvg-id="ts633" group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/invgdis.png" ,INVESTIGATION DISCOVERY HD BHOJPURI
+http://extraott.com:80/4183813400/7514985385/400159885
+#EXTINF:-1 group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/ntge.png" tvg-id="nationalgeographicchannel.in" ,NAT GEO HD BHOJPURI
+http://extraott.com:80/4183813400/7514985385/400159892
+#EXTINF:-1 group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/ntgew.png" tvg-id="ts184" ,NAT GEO WILD HD BHOJPURI
+http://extraott.com:80/4183813400/7514985385/400159893
+#EXTINF:-1 group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/nick.png" tvg-id="ts138" ,NICK HD BHOJPURI
+http://extraott.com:80/4183813400/7514985385/400159890
+#EXTINF:-1 group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/nickj.png" tvg-id="nickjrin.in" ,NICK JUNIOR HD BHOJPURI
+http://extraott.com:80/4183813400/7514985385/400159891
+#EXTINF:-1 group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/pog.png" tvg-id="ts239" ,POGO HD BHOJPURI
+http://extraott.com:80/4183813400/7514985385/400159889
+#EXTINF:-1 group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/sonict.png" tvg-id="ts127" ,SONIC HD BHOJPURI
+http://extraott.com:80/4183813400/7514985385/400159888
+#EXTINF:-1 group-title="BHOJPURI" tvg-logo="https://lo1.in/ind/flg.png" ,HUNGAMA POP PATAKA HD BHOJPURI
+http://extraott.com:80/4183813400/7514985385/36352
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/zeekan.png" tvg-id="zeetvhd.in" ,ZEE TV KANNADA HD
+http://extraott.com:80/4183813400/7514985385/400375053
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/srisa.png" ,SRI SANKARA
+http://extraott.com:80/4183813400/7514985385/400375052
+#EXTINF:-1 tvg-id="ts561" group-title="KANNADA" tvg-logo="https://lo1.in/ind/chint.png" ,CHINTU TV
+http://extraott.com:80/4183813400/7514985385/400375051
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/flg.png" ,SIRI KANNADA
+http://extraott.com:80/4183813400/7514985385/400375050
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/udaymv.png" tvg-id="ts231" ,UDAYA MOVIES HD
+http://extraott.com:80/4183813400/7514985385/187332
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/udaymv.png" tvg-id="ts492" ,UDAYA TV HD
+http://extraott.com:80/4183813400/7514985385/187333
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/flg.png" tvg-id="ts442" ,UDAYA MUSIC KANNADA
+http://extraott.com:80/4183813400/7514985385/36353
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/flg.png" tvg-id="udayacomedy.in" ,UDAYA COMEDY KANNADA
+http://extraott.com:80/4183813400/7514985385/36354
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/t9kan.png" tvg-id="tv9-kannada.in" ,TV9 KANNADA HD
+http://extraott.com:80/4183813400/7514985385/187329
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/suvns.png" tvg-id="suvarnanews24x7.in" ,SUVARNA NEWS HD
+http://extraott.com:80/4183813400/7514985385/187281
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/rajnskan.png" tvg-id="rajnewskannada.in" ,RAJ NEWS KANNADA HD
+http://extraott.com:80/4183813400/7514985385/187220
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/rjms.png" tvg-id="ts425" ,RAJ MUSIX KANNADA HD
+http://extraott.com:80/4183813400/7514985385/187216
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/strsv.png" tvg-id="ts467" ,STAR SUVARNA HD
+http://extraott.com:80/4183813400/7514985385/400159464
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/strsv.png" ,STAR SUVARNA NEWS HD
+http://extraott.com:80/4183813400/7514985385/75365
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/pub.png" tvg-id="publictv.in" ,PUBLIC TV HD
+http://extraott.com:80/4183813400/7514985385/187209
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/clrknd.png" tvg-id="ts612" ,COLORS KANNADA HD
+http://extraott.com:80/4183813400/7514985385/187022
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/clrcn.png" tvg-id="ts667" ,COLORS KANNADA CINEMA
+http://extraott.com:80/4183813400/7514985385/187021
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/nrb.png" ,NRB TV HD
+http://extraott.com:80/4183813400/7514985385/400200102
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/strsp1k.png" tvg-id="ts600" ,STAR SPORTS 1 KANNADA HD
+http://extraott.com:80/4183813400/7514985385/400159569
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/ns18ka.png" tvg-id="news18kannada.in" ,NEWS 18 KANNADA
+http://extraott.com:80/4183813400/7514985385/387724
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/tv5kan.png" tvg-id="tv5kannada.in" ,TV5 KANNADA HD
+http://extraott.com:80/4183813400/7514985385/187323
+#EXTINF:-1 group-title="KANNADA" tvg-logo="https://lo1.in/ind/flg.png" ,KASTURI TV KANNADA
+http://extraott.com:80/4183813400/7514985385/36355
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦  IN BANGLA ✦●✦
+http://extraott.com:80/4183813400/7514985385/187595
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/clrb.png" tvg-id="ts305" ,COLORS BANGLA HD
+http://extraott.com:80/4183813400/7514985385/400162502
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/strjalmv.png" tvg-id="starjalshahd.in" ,STAR JALSHA MOVIES HD
+http://extraott.com:80/4183813400/7514985385/400159618
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/stplay/sjalsha.png" tvg-id="ts468" ,STAR JALSHA HD
+http://extraott.com:80/4183813400/7514985385/378743
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/zebng.png" tvg-id="ts522" ,ZEE BANGLA HD
+http://extraott.com:80/4183813400/7514985385/400159620
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/repb.png" ,REPUBLIC HD
+http://extraott.com:80/4183813400/7514985385/400162487
+#EXTINF:-1 tvg-id="ts1386" group-title="BANGLA" tvg-logo="https://lo1.in/ind/ntv.png" ,NTV HD
+http://extraott.com:80/4183813400/7514985385/187187
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/ntvuk.png" ,NTV UK
+http://extraott.com:80/4183813400/7514985385/400200103
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/flg.png" ,NTV HEV
+http://extraott.com:80/4183813400/7514985385/63041
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/bangvs.png" ,BANGLA VISION HD
+http://extraott.com:80/4183813400/7514985385/400200123
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/flg.png" ,SA TV HD
+http://extraott.com:80/4183813400/7514985385/400200099
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/ch.png" ,CHANNEL I HD
+http://extraott.com:80/4183813400/7514985385/400200115
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/atnbng.png" ,ATN BANGLA
+http://extraott.com:80/4183813400/7514985385/186993
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/atnns.png" ,ATN NEWS HD
+http://extraott.com:80/4183813400/7514985385/400200125
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/deshb.png" ,DESHE BIDESHE TV HD
+http://extraott.com:80/4183813400/7514985385/400200112
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/dbcns.png" ,DBC NEWS HD
+http://extraott.com:80/4183813400/7514985385/400200114
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/somns.png" ,SOMOY NEWS TV HD
+http://extraott.com:80/4183813400/7514985385/400200098
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/indens.png" ,INDEPENDENT NEWS HD
+http://extraott.com:80/4183813400/7514985385/400200107
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/rtv.png" ,RTV HD
+http://extraott.com:80/4183813400/7514985385/400200100
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/flg.png" ,CHANNEL 9 HD
+http://extraott.com:80/4183813400/7514985385/400200116
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/jumn.png" ,JAMUNA TV HD
+http://extraott.com:80/4183813400/7514985385/400200096
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/btvwr.png" ,BTV WORLD HD
+http://extraott.com:80/4183813400/7514985385/400200117
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/btv.png" ,BTV HD
+http://extraott.com:80/4183813400/7514985385/400200118
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/myt.png" ,MY TV HD
+http://extraott.com:80/4183813400/7514985385/400200094
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/iqrab.png" ,IQRA BANGLA
+http://extraott.com:80/4183813400/7514985385/187097
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/mohn.png" ,MOHONA TV HD
+http://extraott.com:80/4183813400/7514985385/400200105
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/atnisl.png" ,ATN ISLAMIC TV HD
+http://extraott.com:80/4183813400/7514985385/400200124
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/ganbms.png" ,GAAN BANGLA-MUSIC HD
+http://extraott.com:80/4183813400/7514985385/400200108
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/zebncn.png" tvg-id="ts254" ,ZEE BANGLA CINEMA HD
+http://extraott.com:80/4183813400/7514985385/187352
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/ze24gh.png" tvg-id="ts258" ,ZEE 24 GHANTA HD
+http://extraott.com:80/4183813400/7514985385/187350
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/snyaat.png" tvg-id="ts34" ,SONY AATH HD
+http://extraott.com:80/4183813400/7514985385/187249
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/sanget.png" tvg-id="ts215" ,SANGEET BANGLA HD
+http://extraott.com:80/4183813400/7514985385/187241
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/aakash.png" tvg-id="ts129" ,AAKAASH AATH HD
+http://extraott.com:80/4183813400/7514985385/186975
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/fxlfb.png" ,FOX LIFE HD BANGLA
+http://extraott.com:80/4183813400/7514985385/400375025
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/manj.png" ,MANJARI TV
+http://extraott.com:80/4183813400/7514985385/400375023
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/boish.png" ,BOISHAKHI TV
+http://extraott.com:80/4183813400/7514985385/400375022
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/sadh.png" ,SADHNA
+http://extraott.com:80/4183813400/7514985385/400375021
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/asian.png" ,ASIAN TV
+http://extraott.com:80/4183813400/7514985385/400375020
+#EXTINF:-1 group-title="BANGLA" ,KHUSBOO BANGLA
+http://extraott.com:80/4183813400/7514985385/400375018
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/ch24.png" ,CHANNEL 24
+http://extraott.com:80/4183813400/7514985385/400375017
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/flg.png" ,AMAR BANGAL
+http://extraott.com:80/4183813400/7514985385/400375016
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/ekat.png" ,EKATTOR TV HD
+http://extraott.com:80/4183813400/7514985385/400375015
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/tarn.png" tvg-id="tarangtv.in" ,TARANG TV HD
+http://extraott.com:80/4183813400/7514985385/187288
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/dhomms.png" ,DHOOM MUSIC HD
+http://extraott.com:80/4183813400/7514985385/400200110
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/atnms.png" ,ATN MUSIC HD
+http://extraott.com:80/4183813400/7514985385/400200126
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/nsstms.png" tvg-id="newstimebangla.in" ,NEWS TIMES HD
+http://extraott.com:80/4183813400/7514985385/400162501
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/ruposhb.png" tvg-id="ts3" ,RUPOSHI BANGLA HD
+http://extraott.com:80/4183813400/7514985385/187232
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/etv.png" tvg-id="etvhd.in" ,ETV BANGAL HD
+http://extraott.com:80/4183813400/7514985385/400200109
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/abpa.png" tvg-id="ts102" ,ABP ANANDA HD
+http://extraott.com:80/4183813400/7514985385/400162504
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/itvban.png" ,ITV BANGLA HD
+http://extraott.com:80/4183813400/7514985385/387768
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/nicksnc.png" ,SONIC HD BANGLA
+http://extraott.com:80/4183813400/7514985385/400159899
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/sunbn.png" tvg-id="ts697" ,SUN BANGLA
+http://extraott.com:80/4183813400/7514985385/400159619
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/nago.png" ,NAGORIK TV HD
+http://extraott.com:80/4183813400/7514985385/400200127
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/bang.png" ,BANGLA TV HD
+http://extraott.com:80/4183813400/7514985385/400200121
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/flg.png" ,TV UK HD
+http://extraott.com:80/4183813400/7514985385/400200120
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/bijy.png" ,BIJOY TV HD
+http://extraott.com:80/4183813400/7514985385/400200119
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/movbng.png" ,ITV MOVIE BANGLA HD
+http://extraott.com:80/4183813400/7514985385/400200104
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/deept.png" ,DEEPTO HD
+http://extraott.com:80/4183813400/7514985385/400200097
+#EXTINF:-1 tvg-id="ts788" group-title="BANGLA" tvg-logo="https://lo1.in/ban/ent.png" ,Enterr10 Bangla
+http://extraott.com:80/4183813400/7514985385/400200093
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/nand.png" ,NANDAN TV HD
+http://extraott.com:80/4183813400/7514985385/400200092
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/anmpl.png" tvg-id="animalplanethd.in" ,ANIMAL PLANET HD BANGLA
+http://extraott.com:80/4183813400/7514985385/400159898
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/crtnet.png" tvg-id="cartoonnetworkhd.in" ,CARTOON NETWORK HD BANGLA
+http://extraott.com:80/4183813400/7514985385/400159905
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/disban.png" tvg-id="discoveryhd.in" ,DISCOVERY HD BANGLA
+http://extraott.com:80/4183813400/7514985385/400159895
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/diskd.png" tvg-id="discoverykids.in" ,DISCOVERY KIDS HD BANGLA
+http://extraott.com:80/4183813400/7514985385/400159897
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/invgdis.png" ,INVESTIGATION DISCOVERY HD BANGLA
+http://extraott.com:80/4183813400/7514985385/400159896
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/madbng.png" ,MADANI TV BANGLA
+http://extraott.com:80/4183813400/7514985385/187131
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/ntge.png" tvg-id="nationalgeographicchannelhd.in" ,NAT GEO HD BANGLA
+http://extraott.com:80/4183813400/7514985385/400159903
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/ntgew.png" tvg-id="natgeowildhd.in" ,NAT GEO WILD HD BANGLA
+http://extraott.com:80/4183813400/7514985385/400159904
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/ns18bn.png" ,NEWS 18 BANGLA
+http://extraott.com:80/4183813400/7514985385/387766
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/nick.png" tvg-id="nick.in" ,NICK HD BANGLA
+http://extraott.com:80/4183813400/7514985385/400159901
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/nickj.png" tvg-id="nickjrin.in" ,NICK JUNIOR HD BANGLA
+http://extraott.com:80/4183813400/7514985385/400159902
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/flg.png" ,TATA PLAY BANGLA HD
+http://extraott.com:80/4183813400/7514985385/36347
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/flg.png" ,NEWS 24 HD BANGLA
+http://extraott.com:80/4183813400/7514985385/36349
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/flg.png" ,KTV BANGLA
+http://extraott.com:80/4183813400/7514985385/36350
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://lo1.in/ind/flg.png" ,TV ONE BANGLA
+http://extraott.com:80/4183813400/7514985385/36351
+
