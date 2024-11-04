@@ -857,92 +857,145 @@ http://extraott.com:80/4183813400/7514985385/36314
 http://extraott.com:80/4183813400/7514985385/36315
 #EXTINF:-1 tvg-id="ts597" group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,ZEE SARTHAK TV
 http://extraott.com:80/4183813400/7514985385/35793
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦ IN MALAYALAM ✦●✦
+.
+
+
+$
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/flg.png"  ,✦●✦  IN  MALAYALAM  ✦●✦
 http://extraott.com:80/4183813400/7514985385/187741
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/asie.png" tvg-id="ts292" ,ASIANET HD
-http://m1-max.dns-speedy.com:80/JOSHUAUGO5386/506D4C/63503
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/asie.png" tvg-id="ts532" ,ASIANET NEWS HD
-http://extraott.com:80/4183813400/7514985385/186992
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/asiapl.png" tvg-id="ts294" ,ASIANET PLUS HD
-http://m1-max.dns-speedy.com:80/JOSHUAUGO5386/506D4C/63275
-#EXTINF:-1 tvg-id="ts1173" group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/asie.png" ,ASIANET MOVIES HD
-http://m1-max.dns-speedy.com:80/JOSHUAUGO5386/506D4C/63276
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/surmv.png" tvg-id="ts229" ,SURYA MOVIES
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/asie.png"  tvg-id="ts292"  ,ASIANET  HD
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2760.ts
+
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/asie.png"  tvg-id="ts532"  ,ASIANET  NEWS  HD
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2797.ts
+
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/asiapl.png"  tvg-id="ts294"  ,ASIANET  PLUS  HD
+https://segmentsecmpkgire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/asianetplus_live_https/index.m3u8?hdnts=st=1730750449~exp=1730754049~acl=!*/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/asianetplus_live_https/*!yuppTVCom_5_24010850_1a36b6616a0a4a30_UK_192.250.239.24~data=yuppTVCom_5_24010850_1a36b6616a0a4a30_UK_192.250.239.24~hmac=ca68d16cd48089777c47efb00507911aa4648ba19d95c4223d21716932bd6922&ads.app_bundle=&ads.app_store_url=&ads.content_livestream=1&ads.language=MAL&ads.content_genre=ENT&ads.channel=306&ads.channel_name=AsianetPlus&ads.network_name=yupptv&ads.user=1
+
+#EXTINF:-1  tvg-id="ts1173"  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/asie.png"  ,ASIANET  MOVIES  HD
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2796.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/surmv.png"  tvg-id="ts229"  ,SURYA  MOVIES
 http://m1-max.dns-speedy.com:80/JOSHUAUGO5386/506D4C/63300
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/janm.png" tvg-id="ts270" ,JANAM TV
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/janm.png"  tvg-id="ts270"  ,JANAM  TV
 http://extraott.com:80/4183813400/7514985385/187104
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/flowr.png" tvg-id="ts10" ,FLOWERS TV HD
-http://extraott.com:80/4183813400/7514985385/355388
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/media.png" tvg-id="ts576" ,MEDIA ONE
-http://extraott.com:80/4183813400/7514985385/387636
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/manrns.png" tvg-id="ts87" ,MANORAMA NEWS HD
-http://extraott.com:80/4183813400/7514985385/187138
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/jeev.png" tvg-id="ts372" ,JEEVAN TV
-http://extraott.com:80/4183813400/7514985385/387639
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/amrita.png" tvg-id="ts178" ,AMRITA TV
-http://extraott.com:80/4183813400/7514985385/378763
-#EXTINF:-1 tvg-id="ts1124" group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/repo.png" ,REPORTER TV
-http://m1-max.dns-speedy.com:80/JOSHUAUGO5386/506D4C/649379
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/backg.png" tvg-id="ts479" ,SURYA HD
-http://m1-max.dns-speedy.com:80/JOSHUAUGO5386/506D4C/63338
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/kaum.png" tvg-id="ts378" ,KAUMUDY TV
-http://extraott.com:80/4183813400/7514985385/355391
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/mazh.png" tvg-id="ts395" ,MAZHAVIL MANORAMA HD
-http://m1-max.dns-speedy.com:80/JOSHUAUGO5386/506D4C/63501
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/rajmsml.png" tvg-id="ts425" ,RAJ MUSIX MALAYALAM HD
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/flowr.png"  tvg-id="ts10"  ,FLOWERS  TV  HD
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2798.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/media.png"  tvg-id="ts576"  ,MEDIA  ONE
+https://previewsecgire.akamaized.net/v1/manifest/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/pr_live_ire_sd/11709fae-7d05-49fa-9d9a-7062b3165b22/0.m3u8
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/manrns.png"  tvg-id="ts87"  ,MANORAMA  NEWS  HD
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/3677.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/jeev.png"  tvg-id="ts372"  ,JEEVAN  TV
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2787.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/amrita.png"  tvg-id="ts178"  ,AMRITA  TV
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2990.ts
+
+#EXTINF:-1  tvg-id="ts1124"  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/repo.png"  ,REPORTER  TV
+https://segment.yuppcdn.net/050522/reporter/050522/reporter_1800/chunks.m3u8
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/backg.png"  tvg-id="ts479"  ,SURYA  HD
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2801.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/kaum.png"  tvg-id="ts378"  ,KAUMUDY  TV
+https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/chunks.m3u8
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/mazh.png"  tvg-id="ts395"  ,MAZHAVIL  MANORAMA  HD
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/3003.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/rajmsml.png"  tvg-id="ts425"  ,RAJ  MUSIX  MALAYALAM  HD
 http://m1-max.dns-speedy.com:80/JOSHUAUGO5386/506D4C/63475
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/rajnsml.png" tvg-id="ts428" ,RAJ NEWS MALAYALAM
-http://m1-max.dns-speedy.com:80/JOSHUAUGO5386/506D4C/113573
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/flg.png" ,KAIRALI PEOPLE TV MALAYALAM
-http://extraott.com:80/4183813400/7514985385/36399
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/kains.png" tvg-id="ts211" ,KAIRALI NEWS
-http://extraott.com:80/4183813400/7514985385/187112
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/kairw.png" tvg-id="ts553" ,KAIRALI WE
-http://m1-max.dns-speedy.com:80/JOSHUAUGO5386/506D4C/63274
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/kair.png" tvg-id="ts25" ,KAIRALI ARABIA
-http://m1-max.dns-speedy.com:80/JOSHUAUGO5386/506D4C/113575
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/kapp.png" tvg-id="ts377" ,Kappa TV
-http://extraott.com:80/4183813400/7514985385/187117
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/mathns.png" tvg-id="ts394" ,MATHRUBHUMI NEWS MALAYALAM HD
-http://extraott.com:80/4183813400/7514985385/400162529
-#EXTINF:-1 tvg-id="ts66" group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/ns18ke.png" ,News18 Kerala
-http://extraott.com:80/4183813400/7514985385/400374726
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/safr.png" tvg-id="ts436" ,Safari TV
-http://extraott.com:80/4183813400/7514985385/187235
-#EXTINF:-1 tvg-id="ts127" group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/sonc.png" ,SONIC
+
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://image.winudf.com/v2/image1/Y29tLmlwY2xvdWQubnZ0dl9pY29uXzE2OTkwNjE3NzRfMDkw/icon.png?w=184&fakeurl=1"  tvg-id=""  ,ASIANET NTV
+https://ipcloud.live/nvtv/livetvstream/index.m3u8
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/rajnsml.png"  tvg-id="ts428"  ,RAJ  NEWS  MALAYALAM
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2820.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/flg.png"  ,KAIRALI NEWS  MALAYALAM
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2789.ts
+
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/kairw.png"  tvg-id="ts553"  ,KAIRALI  WE
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2802.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/kair.png"  tvg-id="ts25"  ,KAIRALI  ARABIA
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2993.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/kapp.png"  tvg-id="ts377"  ,Kappa  TV
+https://cdn3.pishow.tv/live/198/master.m3u8
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/mathns.png"  tvg-id="ts394"  ,MATHRUBHUMI  NEWS  MALAYALAM  HD
+https://yuppmedtaorire.akamaized.net/v1/manifest/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mathrubhuminews_nim_https/794bb8a3-efed-4c5e-8e76-d22ca34a91cd/0.m3u8
+
+#EXTINF:-1  tvg-id="ts66"  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/ns18ke.png"  ,News18  Kerala
+https://nw18live.cdn.jio.com/bpk-tv/News18_Kerala_NW18_MOB/output01/News18_Kerala_NW18_MOB-audio_98834_eng=98800-video=3724000.m3u8
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/safr.png"  tvg-id="ts436"  ,Safari  TV
+https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/chunks.m3u8
+
+#EXTINF:-1  tvg-id="ts127"  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/sonc.png"  ,SONIC
 http://extraott.com:80/4183813400/7514985385/400159751
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/surycmd.png" tvg-id="ts481" ,SURYA COMEDY
-http://extraott.com:80/4183813400/7514985385/400159587
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/surms.png" tvg-id="ts483" ,SURYA MUSIC
-http://extraott.com:80/4183813400/7514985385/400159586
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/anmpl.png" tvg-id="ts130" ,ANIMAL PLANET HD MALAYALAM
-http://extraott.com:80/4183813400/7514985385/400159750
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/crtnet.png" tvg-id="ts238" ,CARTOON NETWORK HD MALAYALAM
-http://extraott.com:80/4183813400/7514985385/400159757
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/ddmly.png" tvg-id="ts328" ,DD MALAYALAM
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/surycmd.png"  tvg-id="ts481"  ,SURYA  COMEDY
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2889.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/surms.png"  tvg-id="ts483"  ,SURYA  MUSIC
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2994.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/anmpl.png"  tvg-id="ts130"  ,ANIMAL  PLANET  HD  MALAYALAM
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/3499.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/crtnet.png"  tvg-id="ts238"  ,CARTOON  NETWORK  HD  MALAYALAM
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/3501.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/ddmly.png"  tvg-id="ts328"  ,DD  MALAYALAM
 http://extraott.com:80/4183813400/7514985385/355390
-#EXTINF:-1 tvg-id="ts341" group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/dis.png" ,Discovery HD World
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/diskd.png" tvg-id="ts119" ,DISCOVERY KIDS HD MALAYALAM
-http://extraott.com:80/4183813400/7514985385/400159749
-#EXTINF:-1 tvg-id="ts633" group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/invgdis.png" ,INVESTIGATION DISCOVERY HD MALAYALAM
-http://extraott.com:80/4183813400/7514985385/400159748
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/ns18mal.png" ,NEWS 18 MALAYALAM
-http://extraott.com:80/4183813400/7514985385/387723
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/nick.png" tvg-id="ts138" ,NICK HD
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://play-lh.googleusercontent.com/6nlTdGSFBt0JvjmGrhEM01xsJpq6cgei0DAPFc8UdBtCQ1s4aBjNg3FPzmidh1WwbYw=w240-h480-rw"  tvg-id=""  ,N VISION
+https://ipcloud.live/nvision/skymusic/index.m3u8
+
+#EXTINF:-1  tvg-id="ts341"  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/dis.png"  ,Discovery  HD  World
+https://neeplay.com/delta/discovery/api/Discovery_Malayalam_HD.m3u8
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/diskd.png"  tvg-id="ts119"  ,DISCOVERY  KIDS  HD  MALAYALAM
+https://neeplay.com/delta/discovery/api/Discovery_Kids.m3u8
+
+#EXTINF:-1  tvg-id="ts633"  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/invgdis.png"  ,INVESTIGATION  DISCOVERY  HD  MALAYALAM
+https://food-dlvr-ott.akamaized.net/primary/3/d31abde936de4fa884fbd91054dacad3/index_14.m3u8
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/nick.png"  tvg-id="ts138"  ,NICK MALAYALAM
 http://extraott.com:80/4183813400/7514985385/400159753
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/nickj.png" tvg-id="nickjrin.in" ,NICK JUNIOR
-http://extraott.com:80/4183813400/7514985385/400159754
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/shalom.png" tvg-id="ts457" ,SHALOM TV
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/nickj.png"  tvg-id="nickjrin.in"  ,NICK  HD
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2807.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/shalom.png"  tvg-id="ts457"  ,SHALOM  TV
 http://extraott.com:80/4183813400/7514985385/400327291
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/DARSH.png" ,DARSHANA TV
-http://extraott.com:80/4183813400/7514985385/46958
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/flg.png" ,MIDDLE EAST
-http://extraott.com:80/4183813400/7514985385/36395
-#EXTINF:-1 tvg-id="ts799" group-title="MALAYALAM" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-49022-k5lxarmw-v2/imageContent-49022-k5lxarmw-m2.png" ,Twenty Four
-http://extraott.com:80/4183813400/7514985385/36396
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://lo1.in/ind/flg.png" ,SHOLAM TV MALAYALAM
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/DARSH.png"  ,DARSHANA  TV
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2918.ts
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/flg.png"  ,MIDDLE  EAST
+http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2991.ts
+
+#EXTINF:-1  tvg-id="ts799"  group-title="MALAYALAM"  tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-49022-k5lxarmw-v2/imageContent-49022-k5lxarmw-m2.png"  ,Twenty  Four
+https://livestream24news.sunnxt.com/24news/TS-49410_5.m3u8
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/flg.png"  ,SHOLAM  TV  MALAYALAM
 http://extraott.com:80/4183813400/7514985385/36397
-#EXTINF:-1 group-title="MALAYALAM" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-258-j5fz98sg-v1/imageContent-258-j5fz98sg-m1.png" tvg-id="ts82" ,Kochu TV
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-258-j5fz98sg-v1/imageContent-258-j5fz98sg-m1.png"  tvg-id="ts82"  ,Kochu  TV
 http://extraott.com:80/4183813400/7514985385/36398
 #EXTINF:-1 group-title="TELUGU" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦ IN INDIA TELUGU ✦●✦
 http://extraott.com:80/4183813400/7514985385/400201560
