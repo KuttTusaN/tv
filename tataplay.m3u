@@ -860,8 +860,6 @@ http://extraott.com:80/4183813400/7514985385/35793
 .
 
 
-$
-
 #EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/flg.png"  ,✦●✦  IN  MALAYALAM  ✦●✦
 http://extraott.com:80/4183813400/7514985385/187741
 
@@ -935,13 +933,13 @@ http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2993.t
 #EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/kapp.png"  tvg-id="ts377"  ,Kappa  TV
 https://cdn3.pishow.tv/live/198/master.m3u8
 
-#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/mathns.png"  tvg-id="ts394"  ,MATHRUBHUMI  NEWS  MALAYALAM  HD
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/mathns.png"  tvg-id="ts394"  ,MATHRUBHUMI  NEWS  MALAYALAM
 https://yuppmedtaorire.akamaized.net/v1/manifest/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mathrubhuminews_nim_https/794bb8a3-efed-4c5e-8e76-d22ca34a91cd/0.m3u8
 
 #EXTINF:-1  tvg-id="ts66"  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/ns18ke.png"  ,News18  Kerala
 https://nw18live.cdn.jio.com/bpk-tv/News18_Kerala_NW18_MOB/output01/News18_Kerala_NW18_MOB-audio_98834_eng=98800-video=3724000.m3u8
 
-#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/safr.png"  tvg-id="ts436"  ,Safari  TV
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/safr.png"  tvg-id="ts436"  ,SAFARI  TV
 https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/chunks.m3u8
 
 #EXTINF:-1  tvg-id="ts127"  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/sonc.png"  ,SONIC
