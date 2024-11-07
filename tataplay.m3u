@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://avkb.short.gy/epg.xml.gz"
+F#EXTM3U x-tvg-url="https://avkb.short.gy/epg.xml.gz"
 #EXTM3U
 
 #EXTINF:-1 group-title="HINDI" tvg-logo="https://lo1.in/ind/flg.png" ,✦●✦ IN   GENERAL  ✦●✦
@@ -966,16 +966,31 @@ http://extraott.com:80/4183813400/7514985385/355390
 https://ipcloud.live/nvision/skymusic/index.m3u8
 
 #EXTINF:-1  tvg-id="ts341"  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/dis.png"  ,Discovery  HD  World
-https://neeplay.com/delta/discovery/api/Discovery_Malayalam_HD.m3u8
+https://varun-iptv.netlify.app/m3u/discoverymalayalam.m3u8
 
 #EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/diskd.png"  tvg-id="ts119"  ,DISCOVERY  KIDS  HD  MALAYALAM
-https://neeplay.com/delta/discovery/api/Discovery_Kids.m3u8
+https://varun-iptv.netlify.app/m3u/discoverykidsmalayalam.m3u8
+
+#EXTINF:-1 group-title="MALAYALAM" tvg-id="CMalayalamTV.ca" tvg-logo="https://i.imgur.com/rpg0bQA.png",C Malayalam TV (1080p)
+https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8
 
 #EXTINF:-1  tvg-id="ts633"  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/invgdis.png"  ,INVESTIGATION  DISCOVERY  HD  MALAYALAM
 https://food-dlvr-ott.akamaized.net/primary/3/d31abde936de4fa884fbd91054dacad3/index_14.m3u8
 
 #EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/nick.png"  tvg-id="ts138"  ,NICK MALAYALAM
 http://extraott.com:80/4183813400/7514985385/400159753
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://i.imgur.com/4ss0KfA.png"  tvg-id=""  ,CCV
+https://5a1178b42cc03.streamlock.net/8212/8212/playlist.m3u8
+
+#EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://i.imgur.com/bkp9dIm.png"  tvg-id=""  ,KCL
+https://kcltv.livebox.co.in/kclhls/live.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/UJ9QUhj.png" group-title="MALAYALAM" ,News Malayalam 24x7
+https://ythls.armelin.one/channel/UCXp6JTdq7-WwBK09S7SzmxQ.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/v5urG30.png" group-title="MALAYALAM",Pulari TV (720p)
+https://royalstarindia.co.in/pularitv_hls/pularitv.m3u8
 
 #EXTINF:-1  group-title="MALAYALAM"  tvg-logo="https://lo1.in/ind/nickj.png"  tvg-id="nickjrin.in"  ,NICK  HD
 http://45.143.220.6:3333/live/premium-aostv-free/download-fdrm-aostv.asia/2807.ts
